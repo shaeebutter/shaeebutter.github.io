@@ -7,3 +7,7 @@ header img {
     height: auto;
     float: right;
 }
+header {
+background-color: blueviolet;
+color: black
+}
