@@ -5,5 +5,13 @@ header img {
 }
 header {
 background-color: blueviolet;
-color: black
+color: black;
+}
+footer{
+    background-color: blueviolet;
+    color: black;
+}
+body{
+    background-color: cornsilk;
+    color: black;
 }
