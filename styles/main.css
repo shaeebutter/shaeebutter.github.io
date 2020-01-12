@@ -2,3 +2,8 @@ body {
     color: yellow; 
     background-color: aquamarine;
 }
+header img {
+    width: auto;
+    height: auto;
+    float: right;
+}
