@@ -1,17 +1,27 @@
 header img {
-    width: auto;
-    height: auto;
+    height: 150px;
     float: right;
+    margin-top: 10px;
+    margin-right: 10px !important;
 }
 header {
 background-color: blueviolet;
 color: black;
+height: 100px;
 }
 footer{
     background-color: blueviolet;
     color: black;
+    height: 80px;
 }
 body{
     background-color: cornsilk;
     color: black;
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul{
+    list-style: none;
 }
