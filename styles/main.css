@@ -8,11 +8,16 @@ header {
 background-color: blueviolet;
 color: black;
 height: 100px;
+padding: 0.5rem;
+margin: 1.25rem auto;
 }
 footer{
     background-color: blueviolet;
     color: black;
     height: 80px;
+    padding: 0.5rem;
+    margin: 1.25rem auto;
+    text-align: center;
 }
 body{
     background-color: cornsilk;
@@ -28,4 +33,7 @@ ul{
 footer div {
     margin-top: auto;
     margin-bottom: auto;
+}
+body {
+    font-family: 'Playfair Display', serif;
 }
