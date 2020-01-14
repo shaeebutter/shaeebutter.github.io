@@ -37,3 +37,6 @@ footer div {
 body {
     font-family: 'Playfair Display', serif;
 }
+ul {
+    text-align: left;
+}
