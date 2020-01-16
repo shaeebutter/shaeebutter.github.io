@@ -4,17 +4,15 @@ h1{
     margin: 1.25rem auto;
     text-align: center;
     background-color: rgb(185, 40, 40);
-    color: whitesmoke
+    color: whitesmoke;
+    font-family: 'Baskervville', serif;
 }
 body{
     background-color: whitesmoke;
-    color: black;
+    color: rgb(61, 59, 59);
+    font-family: 'Alata', sans-serif;
 }
 
-#grid {
-    display: grid;
-    grid-template-columns: 1fr;
-}
 footer{
     text-align: center;
     height: 5em;
@@ -22,5 +20,10 @@ footer{
     margin: 1.25rem auto;
     text-align: center;
     background-color: rgb(185, 40, 40);
-    color: whitesmoke
+    color: whitesmoke;
+    font-family: 'Baskervville', serif;
+}
+#grid {
+    display: grid;
+    grid-template-columns: 1fr;
 }

@@ -1,9 +1,7 @@
-@media only screen and (min-width: 32.5em)
-body{
-    background-color: cornsilk;
-    color: blueviolet
-}
-#grid{
-   
-    grid-template-columns: 1fr 1fr;
+@media only screen and (min-width: 32.5em){
+    
+    #grid{
+       
+        grid-template-columns: 1fr 1fr;
+    }
 }
