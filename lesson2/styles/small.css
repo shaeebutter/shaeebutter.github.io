@@ -1,5 +1,5 @@
 h1{
-    height: 75px;
+    height: 5em;
     padding: 1.5rem;
     margin: 1.25rem auto;
     text-align: center;
@@ -10,9 +10,6 @@ body{
     background-color: whitesmoke;
     color: black;
 }
-h3{
-    
-}
 
 #grid {
     display: grid;
@@ -20,7 +17,7 @@ h3{
 }
 footer{
     text-align: center;
-    height: 75px;
+    height: 5em;
     padding: .5rem;
     margin: 1.25rem auto;
     text-align: center;
