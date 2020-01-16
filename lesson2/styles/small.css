@@ -1,4 +1,29 @@
+h1{
+    height: 75px;
+    padding: 1.5rem;
+    margin: 1.25rem auto;
+    text-align: center;
+    background-color: rgb(185, 40, 40);
+    color: whitesmoke
+}
+body{
+    background-color: whitesmoke;
+    color: black;
+}
+h3{
+    
+}
+
 #grid {
     display: grid;
     grid-template-columns: 1fr;
+}
+footer{
+    text-align: center;
+    height: 75px;
+    padding: .5rem;
+    margin: 1.25rem auto;
+    text-align: center;
+    background-color: rgb(185, 40, 40);
+    color: whitesmoke
 }
