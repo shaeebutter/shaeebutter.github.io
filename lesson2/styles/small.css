@@ -7,10 +7,12 @@ h1{
     color: whitesmoke;
     font-family: 'Baskervville', serif;
 }
+
 body{
     background-color: whitesmoke;
     color: rgb(61, 59, 59);
     font-family: 'Alata', sans-serif;
+    text-align: center;
 }
 
 footer{
@@ -23,6 +25,24 @@ footer{
     color: whitesmoke;
     font-family: 'Baskervville', serif;
 }
+#principle1 {
+    border-radius: 1em/1em;
+    border: 2px solid rgb(39, 41, 37);
+    background-color: rgb(185, 40, 40);
+    color: whitesmoke;
+  }
+#principle2 {
+    border-radius: 1em/1em;
+    border: 2px solid rgb(39, 41, 37);
+    background-color: rgb(185, 40, 40);
+    color: whitesmoke;
+  }
+  #principle3 {
+    border-radius: 1em/1em;
+    border: 2px solid rgb(39, 41, 37);
+    background-color: rgb(185, 40, 40);
+    color: whitesmoke;
+  }
 #grid {
     display: grid;
     grid-template-columns: 1fr;
