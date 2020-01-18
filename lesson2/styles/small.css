@@ -17,7 +17,7 @@ h2{
 body{
     background-color: whitesmoke;
     color: rgb(61, 59, 59);
-    font-family: 'Alata', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     text-align: center;
     float: left;
 }
@@ -45,6 +45,7 @@ section{
     border: 2px solid rgb(39, 41, 37);
     background-color: rgb(185, 40, 40);
     color: whitesmoke;
+    margin-bottom: 1em;
   }
 #principle2 {
     border-radius: 1em/1em;
@@ -62,6 +63,8 @@ section{
     background-color: rgb(185, 40, 40);
     color: whitesmoke;
     padding-bottom: 2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
   }
 #grid {
     display: grid;
