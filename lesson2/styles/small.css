@@ -1,11 +1,18 @@
 h1{
-    height: 5em;
+    width: auto;
     padding: 1.5rem;
-    margin: 1.25rem auto;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     background-color: rgb(185, 40, 40);
     color: whitesmoke;
     font-family: 'Baskervville', serif;
+}
+
+h2{
+  background-color: black;
+  padding: 0.5rem;
+  border-radius: 0.5em/0.5em;
 }
 
 body{
@@ -25,6 +32,13 @@ footer{
     color: whitesmoke;
     font-family: 'Baskervville', serif;
 }
+img{
+  padding: 1em;
+}
+section{
+  padding-left: 2em;
+  padding-right: 2em;
+}
 #principle1 {
     border-radius: 1em/1em;
     border: 2px solid rgb(39, 41, 37);
@@ -36,14 +50,23 @@ footer{
     border: 2px solid rgb(39, 41, 37);
     background-color: rgb(185, 40, 40);
     color: whitesmoke;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
   }
   #principle3 {
     border-radius: 1em/1em;
     border: 2px solid rgb(39, 41, 37);
     background-color: rgb(185, 40, 40);
     color: whitesmoke;
+    padding-bottom: 2em;
   }
 #grid {
     display: grid;
     grid-template-columns: 1fr;
+}
+#principle2text{
+  text-align: center;
+ margin: auto;
 }
