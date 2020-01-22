@@ -12,16 +12,15 @@ ul li a{
     text-decoration: none;
 }
 main {
-    padding-top: 2em;
-    display: flex;
+    text-align: center;
     justify-content: center;
-    flex-direction: column;
-    margin-bottom: 10em;
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+    padding-left: 1.5em;
     font-size: 1.5em;
     background-color: #D0CDD7;
     border-radius: 1.5em;
     margin: 3.5em;
-    text-align: center;
 }
 a:visited {
     color:  #D0CDD7
@@ -36,9 +35,8 @@ footer{
     margin: auto;
 }
 img {
-    width: 25em;
-    padding-left: 2em;
-    padding-bottom: 2em;
-    padding-top: 2em;
+    width: 90%;
+    padding-bottom: 1em;
+    padding-top: 1em;
     margin: auto;
 }
