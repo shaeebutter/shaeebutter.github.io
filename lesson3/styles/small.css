@@ -1,6 +1,44 @@
+body {
+    background-color: #9D858D;
+    color: #3F3F3B;
+}
 ul {
     list-style: none;
+    background-color: #3F3F3B;
+    padding: 2em;
+    color: #D0CDD7;
 }
 ul li a{
     text-decoration: none;
+}
+main {
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10em;
+    font-size: 1.5em;
+    background-color: #D0CDD7;
+    border-radius: 1.5em;
+    margin: 3.5em;
+    text-align: center;
+}
+a:visited {
+    color:  #D0CDD7
+}
+a:hover {
+    color:  #9D858D
+}
+footer{
+    background-color: #3F3F3B;
+    padding: 2em;
+    color: #D0CDD7;
+    margin: auto;
+}
+img {
+    width: 25em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    margin: auto;
 }
