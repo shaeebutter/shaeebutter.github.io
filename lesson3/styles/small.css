@@ -3,15 +3,21 @@ body {
     color: #3F3F3B;
     font-family: 'Bad Script', cursive;
 }
+
+nav{
+    background-color: #3F3F3B;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+
 ul {
     list-style: none;
-    background-color: #3F3F3B;
     padding: 2em;
     color: #D0CDD7;
     font-family: 'Playfair Display', serif;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    margin: auto;
 }
 ul li a {
     text-decoration: none;
@@ -61,4 +67,9 @@ h1{
     padding-top: 2em;
     text-align: center;
     font-family: 'Bad Script', cursive;
+}
+#logo {
+    width: 8em;
+    /* float:   ; */
+
 }
