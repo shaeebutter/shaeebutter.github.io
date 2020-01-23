@@ -70,6 +70,12 @@ h1{
 }
 #logo {
     width: 8em;
-    /* float:   ; */
+   
 
+}
+#font1 {
+    font-family: 'Playfair Display', serif;
+}
+#font2 {
+    font-family: 'Bad Script', cursive;
 }
