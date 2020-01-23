@@ -27,18 +27,19 @@ ul li a:link{
     color: #9D858D
 }
 main, p {
-    text-align: center;
+    text-align:start;
     justify-content: center;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     padding-left: 2.25em;
     padding-right:2em;
     font-size: 1.5em;
-    background-color: #D0CDD7;
-    border-radius: 1.5em;
-    margin: 2em;
+    margin: 0.5em;
     color: #416165;
     font-family: 'Bad Script', cursive;
+    font-size: 18pt;
+    line-height: 2.5em;
+
 }
 a:active{
     background-color: #D0CDD7 ;
@@ -63,10 +64,15 @@ img {
     padding-top: 1em;
     margin: auto;
 }
-h1{
-    padding-top: 2em;
+h1, h2, h3{
+    padding-top: 1em;
+    padding-bottom: 0.5em;
     text-align: center;
-    font-family: 'Bad Script', cursive;
+    font-family: 'Playfair Display', serif;
+    color: #416165;
+    
+
+
 }
 #logo {
     width: 8em;
@@ -78,4 +84,20 @@ h1{
 }
 #font2 {
     font-family: 'Bad Script', cursive;
+}
+#target {
+    background-color: #D0CDD7;
+    border-radius: 1.5em;
+    margin: 3em;
+}
+#firstline{
+    text-align: center;
+}
+.colorpallete {
+    text-align: center;
+    justify-content: center;
+    padding: 1.5em;
+    background-color: #D0CDD7;
+    border-radius: 1.5em;
+    margin: 3em;
 }
