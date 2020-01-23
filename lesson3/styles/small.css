@@ -15,7 +15,7 @@ ul {
 }
 ul li a {
     text-decoration: none;
-    padding: 10em;
+    padding: 2em;
 }
 ul li a:link{
     color: #9D858D
@@ -33,6 +33,9 @@ main, p {
     margin: 2em;
     color: #416165
     font-family: 'Bad Script', cursive;
+}
+a:active{
+    background-color: #D0CDD7 ;
 }
 
 a:visited {
