@@ -13,8 +13,12 @@ ul {
     flex-direction: column;
     text-align: center;
 }
-ul li a{
+ul li a {
     text-decoration: none;
+    padding: 2em;
+}
+ul li a:link{
+    color: #9D858D
 }
 main, p {
     text-align: center;
