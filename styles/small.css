@@ -1,0 +1,42 @@
+header img {
+    height: 150px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px !important;
+}
+header {
+background-color: blueviolet;
+color: black;
+
+text-align: center;
+}
+footer{
+    background-color: blueviolet;
+    color: black;
+    height: 80px;
+    padding: 0.5rem;
+    margin: 1.25rem auto;
+    text-align: center;
+}
+body{
+    background-color: cornsilk;
+    color: black;
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+}
+ul{
+    list-style: none;
+}
+footer div {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+body {
+    font-family: 'Playfair Display', serif;
+}
+ul {
+    text-align: left;
+}
