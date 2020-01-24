@@ -6,22 +6,24 @@ body {
 
 nav{
     background-color: #3F3F3B;
-    display: grid;
-    grid-template-columns: 1fr 6fr;
+    display: inline-flex;
+    margin: auto;
+    
 }
 
 ul {
+    text-align: center;
+    padding-left: 0em;
     list-style: none;
-    padding: 2.15em;
     color: #D0CDD7;
     font-family: 'Playfair Display', serif;
     display: flex;
     flex-direction: column;
-    margin: auto;
+
 }
 ul li a {
     text-decoration: none;
-    padding: 2em;
+    padding: 1em;
 }
 ul li a:link{
     color: #9D858D
@@ -76,8 +78,8 @@ h1, h2, h3{
 }
 #logo {
     width: 8em;
-   
-
+    margin: 0em;
+    padding: 0em;
 }
 #font1 {
     font-family: 'Playfair Display', serif;
