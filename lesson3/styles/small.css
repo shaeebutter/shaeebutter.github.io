@@ -13,34 +13,43 @@ nav{
 
 ul {
     text-align: center;
-    padding-left: 0em;
+    padding-right: 2.75em;
     list-style: none;
     color: #D0CDD7;
     font-family: 'Playfair Display', serif;
     display: flex;
     flex-direction: column;
+    margin: auto;
 
 }
 ul li a {
     text-decoration: none;
     padding: 1em;
+    margin: auto;
 }
 ul li a:link{
     color: #9D858D
 }
+h1, h2, h3{
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #416165;
+}
 main, p {
     text-align:start;
     justify-content: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
     padding-left: 2.25em;
     padding-right:2em;
-    font-size: 1.5em;
     margin: 0.5em;
     color: #416165;
     font-family: 'Bad Script', cursive;
-    font-size: 18pt;
+    font-size: 16pt;
     line-height: 2.5em;
+    margin: auto;
 
 }
 a:active{
@@ -66,16 +75,7 @@ img {
     padding-top: 1em;
     margin: auto;
 }
-h1, h2, h3{
-    padding-top: 1em;
-    padding-bottom: 0.5em;
-    text-align: center;
-    font-family: 'Playfair Display', serif;
-    color: #416165;
-    
 
-
-}
 #logo {
     width: 8em;
     margin: 0em;
@@ -94,6 +94,10 @@ h1, h2, h3{
 }
 #firstline{
     text-align: center;
+}
+#outofzone{
+    text-align: center;
+    font-size: 12pt;
 }
 .colorpallete {
     text-align: center;
