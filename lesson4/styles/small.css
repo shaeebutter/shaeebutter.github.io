@@ -1,3 +1,4 @@
+/*  html selectors */
 body {
     background-color: #9D858D;
     color: #3F3F3B;
@@ -22,9 +23,6 @@ ul {
     flex-direction: column;
     margin: auto;
 
-}
-a {
-    padding: 8em;
 }
 ul li a {
     text-decoration: none;
@@ -79,17 +77,21 @@ img {
     padding-top: 1em;
     margin: auto;
 }
+/*  id selectors */
 
-#logo {
-    width: 8em;
-    margin: 0em;
-    padding: 0em;
+#hero {
+    text-align: center;
 }
 #font1 {
     font-family: 'Playfair Display', serif;
 }
 #font2 {
     font-family: 'Bad Script', cursive;
+}
+#logo {
+    width: 8em;
+    margin: 0em;
+    padding: 0em;
 }
 #target {
     background-color: #D0CDD7;
@@ -103,6 +105,8 @@ img {
     text-align: center;
     font-size: 12pt;
 }
+
+
 .colorpallete {
     text-align: center;
     justify-content: center;

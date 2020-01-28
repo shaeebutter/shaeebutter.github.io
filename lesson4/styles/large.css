@@ -1,0 +1,6 @@
+@media only screen and (min-width: 62.5em){
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+}
