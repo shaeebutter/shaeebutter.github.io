@@ -12,11 +12,33 @@
 
     }
 
+    header{
+        background-color: #3F3F3B;
+        color: #D0CDD7;
+        display: block;
+        margin: auto, 0;
+        padding-right: 1.25em; 
+        justify-content: space-evenly;
+        text-align: left;
+        padding-bottom: 2em;
+    }
     nav {
         display: block;
         padding: 2em;
         width: fit-content;
         text-align: center;
+    }
+    #slogan{
+        margin-left: 16em;
+        display: inline-flex;
+        font-size: 1.5em;
+        text-align: center;
+        margin-bottom: 0em;
+       
+    }
+    #motto{
+        margin-top: 2.5em;
+        padding-left: 2em;
     }
 
     

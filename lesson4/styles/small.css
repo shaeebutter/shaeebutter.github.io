@@ -10,9 +10,8 @@ header {
     color: #D0CDD7;
     display: block;
     margin: auto, 0;
-    padding-right: 1.25em; 
-    justify-content: space-evenly;
-    text-align: left;
+    text-align: center;
+    padding-bottom: 1em;
 
 }
 nav{
@@ -31,18 +30,16 @@ ul {
     display: flex;
     flex-direction: column;
     margin: auto;
-    justify-content: space-evenly;
 
 }
 ul li a {
-    text-align: right;
-    float: right;
+    text-align: left;
+    display: inline-block;
     text-decoration: none;
-    padding-left: 3em;
-    padding-right: 3em;
-    padding-top: 1em;
-    display: inline-flex;
-    justify-content: space-evenly;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 0em;
+    justify-content: center;
 }
 ul li a:link{
     color: #9D858D
@@ -100,6 +97,13 @@ img {
 
 /*  id selectors */
 
+#head {
+ 
+    display: inline-flex;
+    text-align: center;
+    align-content: center;
+    
+}
 
 #hero {
     text-align: center;
@@ -111,10 +115,10 @@ img {
     font-family: 'Bad Script', cursive;
 }
 #logo {
-    width: 10em;
+    width: 4em;
+    height: 4em;
     margin: 0em;
-    padding: 0em;
-    float: left;
+    padding-left: 2em;
 }
 #target {
     background-color: #D0CDD7;
@@ -129,9 +133,14 @@ img {
     font-size: 12pt;
 }
 #slogan{
-    padding-left: 15em;
-    padding-bottom: 0.5em;
-    font-size: 2em;
+    display: inline-block;
+    font-size: 1.5em;
+    text-align: center;
+    margin: auto;
+}
+#motto{
+    text-align: center;
+    padding-left: 1.5em;
 }
 .colorpallete {
     text-align: center;
