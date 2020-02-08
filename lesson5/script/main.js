@@ -34,18 +34,30 @@ fullDate += ", " + numberday + " " + months[currentDate.getMonth()] + " " + year
 
 document.querySelector('#current-date').textContent = fullDate;
 
+//hiding menu
+
 function hidemenu() {
 
     document.querySelectorAll('.hidemenu')
     .forEach(element => {
-        if    (element.style.display !== 'none')
-        element.style.display = 'none';
+        console.log(element.style.display)
+        if    (element.style.display !== 'inline-block')
+        element.style.display = 'inline-block';
 
         else
-        (element.style.display = 'inline-block');
-        // console.log(element.style.visibility);
+        (element.style.display = 'none');
     })
 
+}
+
+//pancake
+const aside = document.querySelector('aside');
+
+if(currentDate.getDay() === 5) {
+    aside.style.display = 'block';
+}
+else {
+    aside.style.display = 'none';
 }
 
 

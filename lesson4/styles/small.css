@@ -17,7 +17,7 @@ header {
 nav{
     background-color: #3F3F3B;
     display: block;
-    margin: auto, 0; 
+    margin: auto 0; 
     justify-content: space-evenly;
 }
 
@@ -77,7 +77,7 @@ a:visited {
     color:  #D0CDD7
 }
 a:hover {
-    color:  #9D858D
+    color: #9D858D;
 }
 footer{
     background-color: #3F3F3B;
