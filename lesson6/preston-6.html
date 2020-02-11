@@ -53,7 +53,12 @@
 
         <h1>Preston</h1>
         <section id="hero">
-            <img src="images/heroimagedowntown.jpg" alt="Preston, ID">
+        <picture>
+            <source srcset = "images/heroimagesmall.jpg" media = "(max-width: 400px;)"> 
+                <source srcset = "images/heroimagemedium.jpg" media = "(max-width: 800px;)">
+                    <source srcset = "images/heroimagelarge.jpg" media = "(max-width: 1200;)">  
+            <img src="images/heroimagesmall.jpg" alt="Preston, ID">
+        </picture>
             <article id="weathersummary"> <p>Weather Summary</p> 
                 <div> <span>Current Temperature:</span>
                     <span id="currenttemp"></span>
