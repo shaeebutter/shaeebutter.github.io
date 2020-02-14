@@ -11,4 +11,9 @@
     flex: 1 1 100%
 }
 
+#weathersummary {
+    top: 550px !important;
+    left: 454px !important; 
+}
+
 }

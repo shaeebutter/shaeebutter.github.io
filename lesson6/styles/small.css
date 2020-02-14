@@ -16,6 +16,7 @@
         color: #D0CDD7;
         display: inline-block;
         padding-bottom: 1em;
+        width: 100%;
 
     }
 
@@ -29,7 +30,7 @@
     tr,
     th,
     td {
-        border: 1px solid #3F3F3B;
+        border: 2px solid #3F3F3B;
         border-collapse: collapse;
         padding: 2em;
 
@@ -37,13 +38,15 @@
 
     ul {
         text-align: center;
-        padding-right: 2.75em;
+        padding-right: 2.5em;
         list-style: none;
         color: #D0CDD7;
         font-family: 'Playfair Display', serif !important;
         display: flex; 
         flex-direction: column;
         margin: 0 auto;
+        background-color: #3F3F3B;
+
 
     }
 
@@ -102,7 +105,7 @@
 
     footer {
         background-color: #3F3F3B;
-        padding: 2em;
+        padding: 1em;
         color: #D0CDD7;
         margin-top: 5em;
         font-family: 'Playfair Display', serif;
@@ -123,6 +126,10 @@
     /*  id selectors */
     #contact {
         line-height: 1.15;
+        padding-left: 5em;
+    }
+    #contacthead {
+        padding-left: 5em;
     }
 
     #hamburger {
@@ -143,6 +150,8 @@
     }
 
     #hero {
+        max-width: 100%;
+        height: auto;
         text-align: center;
     }
 
@@ -151,16 +160,22 @@
         flex-direction: column;
         flex-wrap: nowrap;
         position: absolute;
-        top: 60%;
-        left: 20%;
-        padding: 0.5em;
+        top: 379px;
+        left: 75px;
+        padding: 1em;
         margin: 0em;
         background-color: #D0CDD7;
         font-size: 6px;
+        border: 2px solid #3F3F3B;
+        border-radius: 1em;
     }
 
     #fivedayforecast {
         display: none;
+        background-color: #D0CDD7;
+        border-radius: 1em;
+        padding: 2em;
+        max-width: 600px;
     }
 
     #font1 {
@@ -215,14 +230,26 @@
     }
 
     #cityarticle {
-        margin-left: 3em;
+        padding-left: 0.5em;
+        padding-top: 1em;
+        padding-bottom: 1em;
         max-width: 10em;
+        background-color: #D0CDD7;
+        text-align: center;
+        border-radius: 1em;
     }
 
     #articleimage {
         justify-content: right;
-        margin-left: 12em;
-        float: right;
-        margin: 0 0 1em 1em;
+        padding-left: 2em;
+        
     }
+
+@media only screen and (max-width: 35.5em) {
+       
+       #fivedayforecast {
+           margin-left: -84em;
+       }
+     
+
 }
