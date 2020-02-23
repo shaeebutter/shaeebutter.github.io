@@ -107,7 +107,8 @@ main .pictures {
 
 #fivedayforecast {
     display: block !important;
-    margin-left: 16em;
+    margin-left: 200px !important;
+    padding-left: 4em;
     align-items: center;
     margin-bottom: 3em;
 }
@@ -126,16 +127,18 @@ main .pictures {
 }
 
 #articleimage {
-    position: absolute;
     float: right !important;
-    width: 10em !important;
+    max-width: 10em !important;
     height: 10em !important;
-    padding-left: 26em !important;
+    padding-left: 2em !important;
 }
 #aboutarticle {  
+    margin: auto !important;
     justify-content: left;
     align-content: left;
     padding-right: 2em;
+    width: 20em !important;
+    max-width: 20em !important;
 }
 #hero {
     text-align: center;

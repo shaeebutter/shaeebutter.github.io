@@ -5,7 +5,7 @@
     }
 
     body {
-        background-color: #9D858D;
+        background-color:#D0CDD7;
         color: #3F3F3B;
         font-family: 'Bad Script', cursive !important;
         margin: 0 auto;
@@ -140,10 +140,10 @@
     }
     #contact {
         line-height: 1.15;
-        padding-left: 5em;
+        padding-left: 8em;
     }
     #contacthead {
-        padding-left: 5em;
+        padding-left: 8em;
     }
 
     #hamburger {
@@ -244,26 +244,31 @@
     }
 
     #cityarticle {
-        padding-left: 0.5em;
+        display: inline-flex;
         padding-top: 1em;
-        padding-bottom: 1em;
-        max-width: 10em;
+        padding-left: 4em;
+        max-width: 100px;
         background-color: #D0CDD7;
         text-align: center;
         border-radius: 1em;
-    }
-
-    #articleimage {
         justify-content: right;
-        padding-left: 2em;
+    }
+    #aboutarticle {
+        padding-right: 2em;
+    }
+    #articleimage {
+        display: inline-flex;
+        justify-content: center;
+        padding-left: 0em;
+        max-width: 125px;
+        margin-top: auto;
+        margin-bottom: auto;
         
     }
 
 @media only screen and (max-width: 35.5em) {
        
-       #fivedayforecast {
-           margin-left: -84em;
-       }
+       
      
 
 }
