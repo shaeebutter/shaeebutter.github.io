@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/large.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/lazyload.css">
     <link href="https://fonts.googleapis.com/css?family=Bad+Script|Playfair+Display&display=swap" rel="stylesheet">
     <title>Preston</title>
 </head>
@@ -20,7 +20,7 @@
 
     <header>
         <div id=slogan>
-        <img id=logo src="images/logoreal.png">
+        <img id=logo src="./images/logoreal.png">
         <h4 id="motto">"Don't mess with the weather..."</h4>
         </div>
         <nav>
@@ -56,22 +56,31 @@
         <h1>Weather Gallery</h1>
     <section class="pictures">
         <picture>
-            <img src="images/placeholder" data-src="http://placekitten.com/300/400" alt="kitten">
+            <img src="./images/placeholder.jpg" data-src="./images/weather1.jpg" alt="weather image">
         </picture>
         <picture>
-            <img src="images/placeholder" data-src="http://placekitten.com/300/400" alt="kitten">
+            <img src="./images/placeholder.jpg" data-src="./images/weather2.jpg" alt="weather image">
         </picture>
         <picture>
-            <img src="images/placeholder" data-src="http://placekitten.com/300/400" alt="kitten">
+            <img src="./images/placeholder.jpg" data-src="./images/weather3.jpg" alt="weather image">
         </picture>
         <picture>
-            <img src="images/placeholder" data-src="http://placekitten.com/300/400" alt="kitten">
+            <img src="./images/placeholder.jpg" data-src="./images/weather4.jpg" alt="weather image">
         </picture>
         <picture>
-            <img src="images/placeholder" data-src="http://placekitten.com/300/400" alt="kitten">
+            <img src="./images/placeholder.jpg" data-src="./images/weather5.jpg" alt="weather image">
         </picture>
         <picture>
-            <img src="images/placeholder" data-src="http://placekitten.com/300/400" alt="kitten">
+            <img src="./images/placeholder.jpg" data-src="./images/weather6.jpg" alt="weather image">
+        </picture>
+        <picture>
+            <img src="./images/placeholder.jpg" data-src="./images/weather7.jpg" alt="weather image">
+        </picture>
+        <picture>
+            <img src="./images/placeholder.jpg" data-src="./images/weather8.jpg" alt="weather image">
+        </picture>
+        <picture>
+            <img src="./images/placeholder.jpg" data-src="./images/weather9.jpg" alt="weather image">
         </picture>
 
 
@@ -87,5 +96,7 @@
 
 
 </body>
+
+<script src="script/lazyload.js" defer></script>
 
 </html>
