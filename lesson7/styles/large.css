@@ -15,5 +15,10 @@
     top: 550px !important;
     left: 454px !important; 
 }
+.pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr !important;
+    width: 1200px;
+}
 
 }

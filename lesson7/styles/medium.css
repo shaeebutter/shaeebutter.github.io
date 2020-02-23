@@ -1,4 +1,4 @@
-@media only screen and (min-width: 35.5em) {
+@media only screen and (min-width: 32.5em) {
     address {
         padding-right: 1em;
         padding-left: 2em;
@@ -62,8 +62,11 @@
     margin-top: 2.5em;
     padding-left: 2em;
 }
-img {
-    width: 60% !important;
+main .pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 800px;
+    
 }
 
 #weathersummary {
