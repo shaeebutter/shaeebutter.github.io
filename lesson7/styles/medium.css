@@ -65,14 +65,18 @@
 main .pictures {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 800px;
+    /* width: 800px; */
     
+}
+
+#heroimg {
+    width: 95%;
 }
 
 #weathersummary {
     position: absolute !important;
-    top: 545px !important;
-    left: 304px !important;
+    top: 379px;
+    left: 75px;
     padding: 2em;
     margin: 0em;
     line-height: 2em !important;

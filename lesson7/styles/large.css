@@ -13,12 +13,15 @@
 
 #weathersummary {
     top: 550px !important;
-    left: 454px !important; 
+    left: 250px !important; 
+}
+#heroimg {
+    width: 95%;
 }
 .pictures {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr !important;
-    width: 1200px;
+    /* width: 1200px; */
 }
 
 }
