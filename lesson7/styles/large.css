@@ -16,7 +16,7 @@
     left: 250px !important; 
 }
 #heroimg {
-    width: 95%;
+    width: 95% !important;
 }
 .pictures {
     display: grid;

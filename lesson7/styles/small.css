@@ -121,11 +121,14 @@
         margin: auto;
     }
 
+
     .pictures {
         display: grid;
         grid-template-columns: 1fr;
         margin-left: auto !important;
         margin-right: auto !important;
+       
+    
 
     }
     .pictures picture img:hover {
