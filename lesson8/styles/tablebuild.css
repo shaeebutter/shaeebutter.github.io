@@ -2,7 +2,7 @@ table, caption {
     box-shadow: 10px 10px 10px #628ca6
 }
 table, caption, thead, tr, th, td {
-    border: 1px solid black;
+    border: 1px solid rgb(180, 177, 177);
     border-collapse: collapse;
     padding: 5px;
     text-align: center;
