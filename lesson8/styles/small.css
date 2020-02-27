@@ -270,11 +270,15 @@
     }
     form{
         display: inline-block;
-        border: 2px solid black;
+        border: 2px solid #416165;
         padding: 2em;
         justify-content: center;
         margin-left: 36%;
+        text-align: center;
 
+    }
+    form div {
+        border: #416165;
     }
     #rating {
         color: #416165;
