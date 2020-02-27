@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles/large.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/small.css">
-    <link href="https://fonts.googleapis.com/css?family=Bad+Script|Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rochester|Playfair+Display&display=swap" rel="stylesheet">
     <script src="script/lazyload.js" defer></script>
     <title>Storm Center</title>
 </head>
@@ -21,31 +21,31 @@
 
     <header>
         <div id=slogan>
-        <img id=logo src="./images/logoreal.png">
-        <h4 id="motto">"Don't mess with the weather..."</h4>
+            <img id=logo src="./images/logoreal.png">
+            <h4 id="motto">"Don't mess with the weather..."</h4>
         </div>
         <nav>
             <ul>
-                <li id = "hamburger">
-                    <a onclick = "hidemenu()">&equiv; Menu</a onclick = "hidemenu()">
+                <li id="hamburger">
+                    <a onclick="hidemenu()">&equiv; Menu</a onclick="hidemenu()">
                 </li>
                 <li>
-                    <a class = "hidemenu" href="#">Home</a>
+                    <a class="hidemenu" href="#">Home</a>
                 </li>
                 <li>
-                    <a class = "hidemenu" href="preston-6.html">Preston</a>
+                    <a class="hidemenu" href="preston-6.html">Preston</a>
                 </li>
                 <li>
-                    <a class = "hidemenu" href="#">Soda Springs</a>
+                    <a class="hidemenu" href="#">Soda Springs</a>
                 </li>
                 <li>
-                    <a class = "hidemenu" href="#">Fish Haven</a>
+                    <a class="hidemenu" href="#">Fish Haven</a>
                 </li>
                 <li>
-                    <a class = "hidemenu" href="storm-center-8.html">Storm Center</a>
+                    <a class="hidemenu" href="storm-center-8.html">Storm Center</a>
                 </li>
                 <li>
-                    <a class = "hidemenu" href="gallery-7.html">Gallery</a>
+                    <a class="hidemenu" href="gallery-7.html">Gallery</a>
                 </li>
             </ul>
         </nav>
@@ -55,7 +55,78 @@
     <main>
 
         <h1>Storm Center</h1>
-    
+        <form action="thanks.html" method="GET">
+            <div>
+                <label for="fullName">Full Name: </label>
+                <input type="text" id="fullName" name="fullName" required placeholder="John Doe">
+            </div> <br>
+            <div>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" placeholder="email@domain.com"> 
+            </div> <br>
+            <div>
+                <label for="phoneNumber">Phone number: </label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" required placeholder="2085550125">
+            </div> <br>
+            <div>
+                <label for="zipCode">Zip Code: </label>
+                <input type="number" id="zipCode" name="zipCode" required placeholder="83442">
+            </div> <br>
+            <!--Add all other form fields-->
+            <div>
+                <label for="stormDate">Storm Date: </label>
+                <input type="date" id="stormDate" name="stormDate" placeholder="mm/dd/yyyy">
+            </div> <br>
+            <!--Add all other form fields-->
+            <div>
+                <label for="stormSeverity">Storm Severity: </label>
+                <input type="range" id="stormSeverity" name="stormSeverity" min="0" max="10" step="1" list=tickmarks oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                <span id="rating"></span>
+                <datalist id="tickmarks">
+                    <option value="0">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                    <option value="6">
+                    <option value="7">
+                    <option value="8">
+                    <option value="9">
+                    <option value="10">
+            </div> <br>
+            <!--Add all other forms-->
+            <div>
+                <label for="stormRegion">Storm Region: </label>
+                <select name="stormRegion" id="stormRegion">
+                    <option value="" selected disabled>Select Region...</option>
+                    <option value="preston">Preston</option>
+                    <option value="sodasprings">Soda Springs</option>
+                    <option value="fishhaven">Fish Haven</option>
+                </select>
+            </div> <br>
+            <!--Add all other forms-->
+            <div>
+                <label for="userInDangerLevel">User in Danger Level:</label>
+                <label for="yes">
+                    <input type="radio" value="yes" name="userInDangerLevel" id="yes">
+                    Yes
+                </label>
+                <label for="no">
+                    <input type="radio" value="No" name="userInDangerLevel" id="no">
+                    No
+                </label>
+                <label for="maybe"> 
+                    <input type="radio" value="maybe" name="userInDangerLevel" id="maybe">
+                    Maybe
+                </label>
+            </div> <br>
+            <div>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Clear">
+            </div>
+        </form>
+
     </main>
 
     <footer>

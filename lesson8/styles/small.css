@@ -7,7 +7,7 @@
     body {
         background-color:#D0CDD7;
         color: #3F3F3B;
-        font-family: 'Bad Script', cursive !important;
+        font-family: 'Rochester', !important;
         margin: 0 auto;
     }
 
@@ -86,7 +86,7 @@
         padding-right: 2em;
         margin: 0 auto;
         color: #416165;
-        font-family: 'Bad Script', cursive !important;
+        font-family: 'Rochester', !important;
         margin: auto;
 
     }
@@ -200,7 +200,7 @@
     }
 
     #font2 {
-        font-family: 'Bad Script', cursive;
+        font-family: 'Rochester', ;
     }
 
     #logo {
@@ -267,6 +267,17 @@
         margin-top: auto;
         margin-bottom: auto;
         
+    }
+    form{
+        display: inline-block;
+        border: 2px solid black;
+        padding: 2em;
+        justify-content: center;
+        margin-left: 36%;
+
+    }
+    #rating {
+        color: #416165;
     }
 
 @media only screen and (max-width: 35.5em) {

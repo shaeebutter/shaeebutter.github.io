@@ -90,3 +90,8 @@ WebFont.load({
     }
   });
 
+  //rating
+
+  function adjustRating(rating) {
+    document.querySelector('#rating').textContent = rating;
+  }
