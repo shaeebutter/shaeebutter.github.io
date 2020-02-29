@@ -5,6 +5,7 @@
         line-height: 2;
         margin-top: 3em;
     }
+
     body header nav ul {
         flex-direction: row;
         justify-content: space-evenly;
@@ -31,123 +32,134 @@
         padding-bottom: 2em;
     }
 
-    body > nav {
+    body>nav {
         display: block;
         padding: 3em;
         width: fit-content;
         text-align: center;
 
     }
+
+    form {
+        margin-left: 26%;
+    }
+
     #hamburger {
         display: none !important;
     }
 
-   
- #logo {
-     height: 4em !important;
-     width: 4em !important;
- }   
-#slogan {
-    display: inline-flex;
-    margin-left: 35% !important;
-    font-size: 1.5em;
-    text-align: center !important;
-    align-content: center !important;
 
-    margin-bottom: 0em;
+    #logo {
+        height: 4em !important;
+        width: 4em !important;
+    }
 
-}
+    #slogan {
+        display: inline-flex;
+        margin-left: 35% !important;
+        font-size: 1.5em;
+        text-align: center !important;
+        align-content: center !important;
 
-#motto {
-    margin-top: 2.5em;
-    padding-left: 2em;
-}
-main .pictures {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    /* width: 800px; */
-    
-}
+        margin-bottom: 0em;
 
-#heroimg {
-    width: 95%;
-}
+    }
 
-#weathersummary {
-    position: absolute !important;
-    top: 379px;
-    left: 75px;
-    padding: 2em;
-    margin: 0em;
-    line-height: 2em !important;
-    display: inline-flex !important;
-    justify-content: center;
-    font-size: 6pt !important;
+    #motto {
+        margin-top: 2.5em;
+        padding-left: 2em;
+    }
 
-}
+    main .pictures {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* width: 800px; */
 
-.hidemenu {
-    display: block !important;
-    justify-content: space-evenly;
-    flex-direction: row;
-}
+    }
 
-#contact {
-    display: inline-flex;
-    text-align: center;
-}
-#contacthead {
-    margin-left: 8em; 
+    #heroimg {
+        width: 95%;
+    }
 
-}
-#tobecentered {
-    align-content: center;
-    padding-left: 20%;
-}
+    #weathersummary {
+        position: absolute !important;
+        top: 379px;
+        left: 75px;
+        padding: 2em;
+        margin: 0em;
+        line-height: 2em !important;
+        display: inline-flex !important;
+        justify-content: center;
+        font-size: 6pt !important;
 
-#fivedayforecast {
-    display: block !important;
-    margin-left: 200px !important;
-    padding-left: 4em;
-    align-items: center;
-    margin-bottom: 3em;
-}
+    }
 
-#cityarticle {
-    display: inline-flex;
-    justify-content: center;
-    margin: 0 auto;
-    font-size: 20pt;
-    width: 100%;
-    height: 100%
-    
-}
-#aboutprestonhead {
-    margin-right: 11em;
-}
+    .hidemenu {
+        display: block !important;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
 
-#articleimage {
-    float: right !important;
-    max-width: 10em !important;
-    height: 10em !important;
-    padding-left: 2em !important;
-}
-#aboutarticle {  
-    margin: auto !important;
-    justify-content: left;
-    align-content: left;
-    padding-right: 2em;
-    width: 20em !important;
-    max-width: 20em !important;
-}
-#hero {
-    text-align: center;
-    max-width: 100%;
-    height: auto;
-}
+    #contact {
+        display: inline-flex;
+        text-align: center;
+    }
 
-iframe {
-    display: block !important;
-    padding-top: 2em;
-}
+    #contacthead {
+        margin-left: 8em;
+
+    }
+
+    #tobecentered {
+        align-content: center;
+        padding-left: 20%;
+    }
+
+    #fivedayforecast {
+        display: block !important;
+        margin-left: 200px !important;
+        padding-left: 4em;
+        align-items: center;
+        margin-bottom: 3em;
+    }
+
+    #cityarticle {
+        display: inline-flex;
+        justify-content: center;
+        margin: 0 auto;
+        font-size: 20pt;
+        width: 100%;
+        height: 100%
+    }
+
+    #aboutprestonhead {
+        margin-right: 11em;
+    }
+
+    #articleimage {
+        float: right !important;
+        max-width: 10em !important;
+        height: 10em !important;
+        padding-left: 2em !important;
+    }
+
+    #aboutarticle {
+        margin: auto !important;
+        justify-content: left;
+        align-content: left;
+        padding-right: 2em;
+        width: 20em !important;
+        max-width: 20em !important;
+    }
+
+    #hero {
+        text-align: center;
+        max-width: 100%;
+        height: auto;
+    }
+
+    iframe {
+        display: block !important;
+        padding-top: 2em;
+    }
 }
