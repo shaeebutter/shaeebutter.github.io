@@ -47,7 +47,15 @@
     #hamburger {
         display: none !important;
     }
-
+    #cities {
+        flex-flow: row wrap !important;
+        background-color: ;
+    }
+    article {
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
     #logo {
         height: 4em !important;
@@ -156,6 +164,9 @@
         text-align: center;
         max-width: 100%;
         height: auto;
+    }
+    #sodaSpringsImage {
+        width: 355px !important;
     }
 
     iframe {

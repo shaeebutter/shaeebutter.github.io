@@ -31,7 +31,7 @@ let numberday = currentDate.getDate()
 
 let fullDate = daysofweek[dayofweek];
 fullDate += ", " + numberday + " " + months[currentDate.getMonth()] + " " + year;
-
+console.log(document.querySelector('#current-date'))
 document.querySelector('#current-date').textContent = fullDate;
 
 //hiding menu

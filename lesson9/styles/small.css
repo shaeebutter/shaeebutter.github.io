@@ -3,6 +3,15 @@
     iframe {
         display: none;
     }
+    article {
+        display: inline-flex; 
+        flex-direction: column;
+        background-color: #9D858D;
+        border-radius: 2em;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        box-shadow: 10px 10px 20px #3F3F3B;
+    }
 
     body {
         background-color:#D0CDD7;
@@ -80,10 +89,6 @@
     p {
         text-align: start;
         justify-content: center;
-        padding-top: 2em;
-        padding-bottom: 2em;
-        padding-left: 2.25em;
-        padding-right: 2em;
         margin: 0 auto;
         color: #416165;
         font-family: 'Rochester', !important;
@@ -121,7 +126,16 @@
         margin: auto;
     }
 
-
+    #sodaSpringsImage {
+        width: 200px;
+        border-radius: 2em;
+    }
+    #prestonImage{
+        border-radius: 2em;
+    }
+    #fishHavenImage {
+        border-radius: 2em;
+    }
     .pictures {
         display: grid;
         grid-template-columns: 1fr;
@@ -143,10 +157,10 @@
     }
     #contact {
         line-height: 1.15;
-        padding-left: 8em;
+        padding-left: 35%;
     }
     #contacthead {
-        padding-left: 8em;
+        padding-left: 35%;
     }
 
     #hamburger {
@@ -171,7 +185,10 @@
         height: auto;
         text-align: center;
     }
-
+    #cities {
+        display: flex;
+        flex-direction: column;
+    }
     #weathersummary {
         display: block;
         flex-direction: column;
@@ -288,6 +305,11 @@
         margin: auto;
         color:white;
         background-color: #3F3F3B;
+    }
+    #sodaSpringsMotto {
+        font-size: 12pt;
+        padding-left: 1em;
+        padding-right: 1em;
     }
 
 @media only screen and (max-width: 35.5em) {
