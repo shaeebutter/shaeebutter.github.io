@@ -139,8 +139,7 @@
     .pictures {
         display: grid;
         grid-template-columns: 1fr;
-        margin-left: auto !important;
-        margin-right: auto !important;
+        margin-left: 6em;
        
     
 

@@ -81,6 +81,7 @@
     main .pictures {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        margin-right: auto;
         /* width: 800px; */
 
     }
