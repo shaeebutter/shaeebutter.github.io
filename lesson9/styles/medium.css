@@ -49,7 +49,6 @@
     }
     #cities {
         flex-flow: row wrap !important;
-        background-color: ;
     }
     article {
         display: flex;
