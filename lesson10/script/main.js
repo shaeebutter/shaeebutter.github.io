@@ -62,22 +62,22 @@ else {
 
 //calculate windchill
 
-let f, t, s;
-t = 50;
-s = 10;
+// let f, t, s;
+// t = 50;
+// s = 10;
 
-if (t <= 50 && s >= 3) {
+// if (t <= 50 && s >= 3) {
 
-f = 35.74 + 0.6215 * t - 25.75 * Math.pow(s, 0.16) + 0.4275 * t * Math.pow(s, 0.16);
+// f = 35.74 + 0.6215 * t - 25.75 * Math.pow(s, 0.16) + 0.4275 * t * Math.pow(s, 0.16);
 
-}
- else {
-f = t;
- }
+// }
+//  else {
+// f = t;
+//  }
 
-document.querySelector('#currenttemp').innerHTML = t + '&deg';
-document.querySelector('#windspeed').innerHTML = s + 'MPH';
-document.querySelector('#windchill').innerHTML = f.toFixed(0) + '&deg';
+// document.querySelector('#currenttemp').innerHTML = t + '&deg';
+// document.querySelector('#windspeed').innerHTML = s + 'MPH';
+// document.querySelector('#windchill').innerHTML = f.toFixed(0) + '&deg';
 
 //fonts 
 

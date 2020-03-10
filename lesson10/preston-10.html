@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles/large.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/small.css">
-    <link href="https://fonts.googleapis.com/css?family=Bad+Script|Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap" rel="stylesheet">
     <title>Preston</title>
 </head>
 
@@ -55,14 +55,13 @@
 
         <h1>Preston</h1>
         <section id="hero">
-        <picture>
-            <source srcset = "images/heroimagesmall.jpg" media = "(max-width: 400px)"> 
-                <source srcset = "images/heroimagemedium.jpg" media = "(max-width: 800px)">
-                    <source srcset = "images/heroimagelarge.jpg" media = "(min-width: 801px)">  
-            <img src="images/heroimagesmall.jpg" alt="Preston, ID" id="heroimg">
-            <article id="weathersummary"> <p>Weather Summary</p> 
+        <picture>  
+            <img src="images/prestonheroimg.jpg" alt="Preston, ID" id="heroimg">
+            
+            <div id="weathersummary"> 
+                <div id="weatherheading">Weather Summary</div> 
                 <div> <span>Current Temperature:</span>
-                    <span id="currenttemp"></span>
+                    <span id="current-temp"></span>
                 </div>
                 <div> <span>Wind Speed:</span>
                     <span id="windspeed"></span>
@@ -71,9 +70,8 @@
                     <span>Feels Like:</span>
                     <span id="windchill"></span>
                 </div>
-            </article>
+            </div>
         </picture>
-
         </section>
         <br><br>
         <section id="fivedayforecast"> Five Day Forecast <br><br>
@@ -105,7 +103,7 @@
                 assumenda inventore sequi molestias ad omnis repellendus nobis nisi sed, quia eaque animi
                 excepturi atque esse.
                 Ut, cumque consequuntur!</article>
-                <img id="articleimage" src="images/heroimagepreston.jpg">
+                <img id="articleimage" src="images/prestonimg.jpg">
         </section>
         <br><br><br><br>
         <span id="contacthead">Contact Us</span> <br><br>
@@ -127,6 +125,7 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="script/main.js"></script>
+    <script src="script/weathersummary.js"></script>
 
 
 </body>

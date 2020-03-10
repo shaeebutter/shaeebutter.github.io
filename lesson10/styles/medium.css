@@ -11,7 +11,7 @@
         justify-content: space-evenly;
         list-style: none;
         padding: 3em;
-        color: #D0CDD7;
+        color: rgb(240, 239, 243);
         font-family: 'Playfair Display', serif !important;
         margin: 1em;
         text-align: center;
@@ -25,7 +25,7 @@
 
     body header {
         background-color: #3F3F3B;
-        color: #D0CDD7;
+        color:  rgb(240, 239, 243);;
         display: block;
         margin: auto 0;
         padding-right: em;
@@ -49,7 +49,6 @@
     }
     #cities {
         flex-flow: row wrap !important;
-        background-color: ;
     }
     article {
         display: flex;
@@ -92,14 +91,12 @@
 
     #weathersummary {
         position: absolute !important;
-        top: 379px;
-        left: 75px;
+        top: 200px;
+        left: 0px;
         padding: 2em;
-        margin: 0em;
         line-height: 2em !important;
         display: inline-flex !important;
         justify-content: center;
-        font-size: 6pt !important;
 
     }
 
