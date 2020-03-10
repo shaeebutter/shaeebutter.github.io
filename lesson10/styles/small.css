@@ -156,10 +156,10 @@
     }
     #contact {
         line-height: 1.15;
-        padding-left: 35%;
+        padding-left: 20%;
     }
     #contacthead {
-        padding-left: 35%;
+        padding-left: 20%;
     }
 
     #hamburger {
@@ -215,7 +215,7 @@
         display: none;
         background-color:  rgb(240, 239, 243);;
         border-radius: 1em;
-        padding: 2em;
+        padding-left: 15%;
         max-width: 600px;
     }
 
@@ -273,7 +273,7 @@
     #cityarticle {
         display: inline-flex;
         padding-top: 1em;
-        padding-left: 4em;
+        padding-left: 3em;
         max-width: 100px;
         background-color:  rgb(240, 239, 243);;
         text-align: center;
@@ -281,7 +281,7 @@
         justify-content: right;
     }
     #aboutarticle {
-        padding-right: 2em;
+        padding: 2em;
     }
     #articleimage {
         display: inline-flex;
