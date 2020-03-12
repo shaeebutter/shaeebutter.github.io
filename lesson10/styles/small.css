@@ -156,10 +156,10 @@
     }
     #contact {
         line-height: 1.15;
-        padding-left: 20%;
+        padding-left: 35%;
     }
     #contacthead {
-        padding-left: 20%;
+        padding-left: 35%;
     }
 
     #hamburger {
@@ -215,12 +215,12 @@
         display: none;
         background-color:  rgb(240, 239, 243);;
         border-radius: 1em;
-        padding-left: 15%;
+        padding-left: 30%;
         max-width: 600px;
     }
 
     #font1 {
-        font-family: 'Playfair Display', serif;
+        font-family: 'Playfair Display', serif; 
     }
 
     #font2 {
@@ -273,12 +273,12 @@
     #cityarticle {
         display: inline-flex;
         padding-top: 1em;
-        padding-left: 3em;
+        padding-left: 40%;
         max-width: 100px;
         background-color:  rgb(240, 239, 243);;
-        text-align: center;
+        text-align: right;
         border-radius: 1em;
-        justify-content: right;
+        justify-content: center;
     }
     #aboutarticle {
         padding: 2em;
