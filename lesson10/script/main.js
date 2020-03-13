@@ -75,7 +75,7 @@ else {
 // f = t;
 //  }
 
-// document.querySelector('#currenttemp').innerHTML = t + '&deg';
+// document.querySelector('#current-temp').innerHTML = t + '&deg';
 // document.querySelector('#windspeed').innerHTML = s + 'MPH';
 // document.querySelector('#windchill').innerHTML = f.toFixed(0) + '&deg';
 
