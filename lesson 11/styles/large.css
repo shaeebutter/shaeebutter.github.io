@@ -1,0 +1,30 @@
+@media only screen and (min-width: 62.5em){
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+.navigation li:first-child {
+    display: none;
+}
+.navigation li {
+    display: block;
+    flex: 1 1 100%
+}
+
+#weathersummary {
+    top: 550px !important;
+    left: 250px !important; 
+}
+#heroimg {
+    width: 95% !important;
+}
+.pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr !important;
+    /* width: 1200px; */
+}
+#sodaSpringsImage {
+    width: 600px !important;
+}
+
+}

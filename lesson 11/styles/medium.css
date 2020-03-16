@@ -1,0 +1,160 @@
+@media only screen and (min-width: 32.5em) {
+    address {
+        padding-right: 1em;
+        padding-left: 2em;
+        line-height: 2;
+        margin-top: 3em;
+    }
+
+    body header nav ul {
+        flex-direction: row;
+        justify-content: space-evenly;
+        list-style: none;
+        padding: 3em;
+        color: rgb(240, 239, 243);
+        font-family: 'Playfair Display', serif !important;
+        margin: 1em;
+        text-align: center;
+        padding-bottom: 2em;
+
+    }
+
+    ul li a {
+        text-decoration: none;
+    }
+
+    body header {
+        background-color: #3F3F3B;
+        color:  rgb(240, 239, 243);;
+        display: block;
+        margin: auto 0;
+        padding-right: em;
+        padding-bottom: 2em;
+    }
+
+    body>nav {
+        display: block;
+        padding: 3em;
+        width: fit-content;
+        text-align: center;
+
+    }
+
+    form {
+        margin-left: 26%;
+    }
+
+    #hamburger {
+        display: none !important;
+    }
+    #cities {
+        flex-flow: row wrap !important;
+    }
+    article {
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #logo {
+        height: 4em !important;
+        width: 4em !important;
+    }
+
+    #slogan {
+        display: inline-flex;
+        margin-left: 35% !important;
+        font-size: 1.5em;
+        text-align: center !important;
+        align-content: center !important;
+
+        margin-bottom: 0em;
+
+    }
+
+    #motto {
+        margin-top: 2.5em;
+        padding-left: 2em;
+    }
+
+    main .pictures {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-right: auto;
+        /* width: 800px; */
+
+    }
+
+    #heroimg {
+        width: 95%;
+    }
+
+    #weathersummary {
+        position: absolute !important;
+        left: 0px;
+        padding: 2em;
+        line-height: 2em !important;
+        display: inline-flex !important;
+        justify-content: center;
+
+    }
+
+    .hidemenu {
+        display: block !important;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+    #contact {
+        display: inline-flex;
+        text-align: center;
+    }
+
+    #contacthead {
+        margin-left: 8em;
+
+    }
+    #fivedayforecast {
+        display: block !important;
+        padding-left: 4em;
+        align-items: center;
+        margin-bottom: 3em;
+    }
+
+    #cityarticle {
+        display: inline-flex;
+        justify-content: center;
+        margin: 0 auto;
+        font-size: 20pt;
+        width: 100%;
+        height: 100%
+    }
+
+    #articleimage {
+        float: right !important;
+        max-width: 10em !important;
+        height: 10em !important;
+        padding-left: 2em !important;
+    }
+
+    #aboutarticle {
+        justify-content: left;
+        align-content: left;
+        width: 20em !important;
+        max-width: 20em !important;
+    }
+
+    #hero {
+        text-align: center;
+        max-width: 100%;
+        height: auto;
+    }
+    #sodaSpringsImage {
+        width: 355px !important;
+    }
+
+    iframe {
+        display: block !important;
+        padding-top: 2em;
+    }
+}
