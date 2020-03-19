@@ -13,38 +13,38 @@
     <title>Preston</title>
 </head>
 
-<body>
+<body onload="getEvents('preston')">
     <aside>
         <p>Saturday = Preston Pancakes in the park! 9:00a.m Saturday</p>
     </aside>
 
     <header>
         <div id=slogan>
-        <img id=logo src="images/logoreal.png">
-        <h4 id="motto">"Don't mess with the weather..."</h4>
+            <img id=logo src="images/logoreal.png">
+            <h4 id="motto">"Don't mess with the weather..."</h4>
         </div>
         <nav>
             <ul>
-                <li id = "hamburger">
-                    <a onclick = "hidemenu()">&equiv; Menu</a onclick = "hidemenu()">
+                <li id="hamburger">
+                    <a onclick="hidemenu()">&equiv; Menu</a onclick="hidemenu()">
                 </li>
                 <li>
-                    <a class = "hidemenu" href="index.html">Home</a>
+                    <a class="hidemenu" href="index.html">Home</a>
                 </li>
                 <li>
-                    <a class = "hidemenu" href="preston.html">Preston</a>
+                    <a class="hidemenu" href="preston.html">Preston</a>
                 </li>
                 <li>
-                    <a class = "hidemenu" href="#">Soda Springs</a>
+                    <a class="hidemenu" href="soda-springs.html">Soda Springs</a>
                 </li>
                 <li>
-                    <a class = "hidemenu" href="#">Fish Haven</a>
+                    <a class="hidemenu" href="fish-haven.html">Fish Haven</a>
                 </li>
                 <li>
-                    <a class = "hidemenu" href="storm-center.html">Storm Center</a>
+                    <a class="hidemenu" href="storm-center.html">Storm Center</a>
                 </li>
                 <li>
-                    <a class = "hidemenu" href="gallery.html">Gallery</a>
+                    <a class="hidemenu" href="gallery.html">Gallery</a>
                 </li>
             </ul>
         </nav>
@@ -55,31 +55,31 @@
 
         <h1>Preston</h1>
         <section id="hero">
-        <picture>  
-            <img src="images/prestonheroimg.jpg" alt="Preston, ID" id="heroimg">
-            
-            <div id="weathersummary"> 
-                <div id="weatherheading">Weather Summary</div> 
-                <span id="weather-info">
-                    <div id="weatherDescription"></div>
-                    <img id="weather-icon"></img>
-                </span>
-                <div> <span>Current Temperature:</span>
-                    <span id="current-temp"></span>
-        
+            <picture>
+                <img src="images/prestonheroimg.jpg" alt="Preston, ID" id="heroimg">
+
+                <div id="weathersummary">
+                    <div id="weatherheading">Weather Summary</div>
+                    <span id="weather-info">
+                        <div id="weatherDescription"></div>
+                        <img id="weather-icon"></img>
+                    </span>
+                    <div> <span>Current Temperature:</span>
+                        <span id="current-temp"></span>
+
+                    </div>
+                    <div> <span>Wind Speed:</span>
+                        <span id="speed"></span>
+                    </div>
+                    <div>
+                        <span>Feels Like:</span>
+                        <span id="windchill"></span>
+                    </div>
+                    <div>
+                        Humidity: <span id="humidity"></span>
+                    </div>
                 </div>
-                <div> <span>Wind Speed:</span>
-                    <span id="speed"></span>
-                </div>
-                <div>
-                    <span>Feels Like:</span>
-                    <span id="windchill"></span>
-                </div>
-                <div>
-                    Humidity: <span id = "humidity"></span>
-                </div>
-            </div>
-        </picture>
+            </picture>
         </section>
         <br><br>
         <section id="fivedayforecast"> Five Day Forecast <br><br>
@@ -87,8 +87,8 @@
                 <thead>
                     <th id="day1">Day 1</th>
                     <th id="day2">Day 2</th>
-                    <th id= "day3">Day 3</th>
-                    <th id= "day4">Day 4</th>
+                    <th id="day3">Day 3</th>
+                    <th id="day4">Day 4</th>
                     <th id="day5">Day 5</th>
                 </thead>
                 <tbody>
@@ -106,21 +106,33 @@
         <br><br>
         <div id="tobecentered">
             <h1 id="aboutprestonhead">About Preston</h1> <br><br>
-        <section id="cityarticle">
-            <article id="aboutarticle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil officia mollitia
-                assumenda inventore sequi molestias ad omnis repellendus nobis nisi sed, quia eaque animi
-                excepturi atque esse.
-                Ut, cumque consequuntur!</article>
+            <section id="cityarticle">
+                <article id="aboutarticle">From prestonidaho.net "Preston, Idaho is one of the best kept secrets of the West.  
+                    Nestled on the Idaho side of beautiful Cache Valley and surrounded by towering mountains on each side, 
+                    it is unbeatable for recreation opportunities, has that small town feeling, and is close to whatever you 
+                    need.
+                    <br>
+                    It is one of the safest places to live in the State of Idaho and in Cache Valley." </article>
                 <img id="articleimage" src="images/prestonimg.jpg">
-        </section>
-        <br><br><br><br>
-        <span id="contacthead">Contact Us</span> <br><br>
-        <section id="contact">
-             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.0082163285315!2d-111.78527078471669!3d43.81418897911609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540b03c3c8b0cd%3A0xfd28a97e4cccebc!2s525%20S%20Center%20St%2C%20Rexburg%2C%20ID%2083460!5e0!3m2!1sen!2sus!4v1581010171259!5m2!1sen!2sus" width="50%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-             <address> 525 S Center<br>
-                Rexburg, ID <br>
-                2085550129
-             </address>
+            </section>
+            <br><br><br><br>
+            <section id="townevents">
+                <div id= "prestonevents">
+                    City Events:
+                    <br><br>
+                    <div id="events"></div>
+                </div>
+            </section>
+            <br><br>
+            <span id="contacthead">Contact Us</span> <br><br>
+            <section id="contact">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.0082163285315!2d-111.78527078471669!3d43.81418897911609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540b03c3c8b0cd%3A0xfd28a97e4cccebc!2s525%20S%20Center%20St%2C%20Rexburg%2C%20ID%2083460!5e0!3m2!1sen!2sus!4v1581010171259!5m2!1sen!2sus"
+                    width="50%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                <address> 525 S Center<br>
+                    Rexburg, ID <br>
+                    2085550129
+                </address>
             </section>
         </div>
 
@@ -134,7 +146,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="script/main.js"></script>
     <script src="script/weathersummary.js"></script>
-
+    <script src="script/townevents.js"></script>
 
 </body>
 

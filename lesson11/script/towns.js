@@ -4,9 +4,7 @@ fetch('https://byui-cit230.github.io/weather/data/towndata.json')
             return result.json()
         })
     .then(resultJSON => {
-        let towns = resultJSON.towns;
-        console.log(towns);
-
+        let towns = resultJSON.towns
         towns.forEach(
             town => {
                 if (town.name === 'Fish Haven') {

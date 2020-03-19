@@ -34,6 +34,9 @@
         margin: auto 0;
         justify-content: space-evenly;
     }
+    th {
+        background-color: #9D858D;
+    }
 
     table,
     tr,
@@ -147,7 +150,10 @@
     .pictures picture img:hover {
         box-shadow: 10px 10px 20px #416165;
     }
-
+    .FHweather {
+        max-width: 200px !important;
+        max-height: 200px;
+    }
 
     /*  id selectors */
 
@@ -279,12 +285,12 @@
     }
 
     #cityarticle {
-        display: inline-flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 35%;
         padding-top: 1em;
-        padding-left: 40%;
-        max-width: 100px;
-        background-color:  rgb(240, 239, 243);;
-        text-align: right;
+        max-width: 200px;
+        background-color:  rgb(240, 239, 243);
         border-radius: 1em;
         justify-content: center;
     }
@@ -299,6 +305,24 @@
         margin-top: auto;
         margin-bottom: auto;
         
+    }
+    #townevents {
+        display: block;
+        justify-content: center;
+        margin-left: 38%;
+        margin-right: auto;
+        padding: 2em;
+        background-color: #9D858D;
+        width: 200px;
+        height: 200px;
+        border: 4px double #3F3F3B;
+    }
+    #prestonevents {
+        background-color: #D0CDD7;
+        padding: 1em;
+    }
+    #prestonTownEvents {
+        align-items: center;
     }
     form{
         display: inline-block;

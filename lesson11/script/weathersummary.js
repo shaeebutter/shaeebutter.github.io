@@ -62,10 +62,10 @@ fetch(apiForecast)
 
 
                         document.getElementById(`day${counter}`).textContent = dayofweek
-                        console.log(forecast.main.temp)
+                       
                         document.getElementById(`temp${counter}`).innerHTML = forecast.main.temp
                         counter += 1
-                        console.log(dayofweek)
+                       
                     }
                 }
             )
