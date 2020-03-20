@@ -1,3 +1,4 @@
+
 const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=3bc8d0eed950aefc26f97b8d2a9e475e&units=imperial'
 
 fetch(apiURL) 
@@ -16,4 +17,3 @@ fetch(apiURL)
 
         }
     ));
-

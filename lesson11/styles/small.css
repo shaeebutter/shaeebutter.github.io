@@ -99,9 +99,6 @@
 
     }
 
-    a:active {
-        background-color: #416165;
-    }
 
     a:visited {
         color: #D0CDD7
@@ -273,6 +270,10 @@
     #motto {
         text-align: center;
         padding-left: 1.5em;
+    }
+    #current {
+        background-color:#416165;
+        padding: 0.5em;
     }
 
     .colorpallete {

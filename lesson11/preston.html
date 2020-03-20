@@ -13,7 +13,7 @@
     <title>Preston</title>
 </head>
 
-<body onload="getEvents('preston')">
+<body onload="getEvents('preston'); currentWeather('5604473'); getFiveDay('5604473')">
     <aside>
         <p>Saturday = Preston Pancakes in the park! 9:00a.m Saturday</p>
     </aside>
@@ -32,7 +32,7 @@
                     <a class="hidemenu" href="index.html">Home</a>
                 </li>
                 <li>
-                    <a class="hidemenu" href="preston.html">Preston</a>
+                    <a class="hidemenu" id="current" href="preston.html">Preston</a>
                 </li>
                 <li>
                     <a class="hidemenu" href="soda-springs.html">Soda Springs</a>
@@ -58,7 +58,7 @@
             <picture>
                 <img src="images/prestonheroimg.jpg" alt="Preston, ID" id="heroimg">
 
-                <div id="weathersummary">
+                <div id="weathersummary" onload="getCurrentWeather('5604473')">
                     <div id="weatherheading">Weather Summary</div>
                     <span id="weather-info">
                         <div id="weatherDescription"></div>

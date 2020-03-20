@@ -1,12 +1,10 @@
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=3bc8d0eed950aefc26f97b8d2a9e475e&units=imperial'
+function currentWeather(cityId) {
 
-fetch(apiURL)
-    .then(
-        response => (
-            response.json()
-        )
-        .then(
-            jsObject => {
+    const apiURL = `https://api.openweathermap.org/data/2.5/weather?id=${cityId}&appid=3bc8d0eed950aefc26f97b8d2a9e475e&units=imperial`;
+
+    fetch(apiURL)
+        .then(response => response.json())
+        .then(jsObject => {
                 let t = document.getElementById('current-temp').textContent = jsObject.main.temp;
                 let s = document.getElementById('speed').textContent = jsObject.wind.speed;
                 let f = 0
@@ -25,12 +23,16 @@ fetch(apiURL)
                 document.querySelector('#speed').innerHTML = s + ' MPH';
                 document.querySelector('#windchill').innerHTML = f.toFixed(0) + '&deg';
                 document.querySelector('#humidity').textContent = jsObject.main.humidity + '%';
-                
+
 
                 document.getElementById('weatherDescription').textContent = jsObject.weather[0].main;
 
-            }));
+            });
+
+}
 //five day forcast
+
+function getFiveDay(cityId) {
 
 const numbertoday = [
     'Sunday',
@@ -42,7 +44,8 @@ const numbertoday = [
     'Saturday'
 ];
 
-const apiForecast = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=3bc8d0eed950aefc26f97b8d2a9e475e&units=imperial'
+const apiForecast = 'https://api.openweathermap.org/data/2.5/forecast?id=' + 
+cityId + '&appid=3bc8d0eed950aefc26f97b8d2a9e475e&units=imperial'
 
 
 fetch(apiForecast)
@@ -62,12 +65,12 @@ fetch(apiForecast)
 
 
                         document.getElementById(`day${counter}`).textContent = dayofweek
-                       
+
                         document.getElementById(`temp${counter}`).innerHTML = forecast.main.temp
                         counter += 1
-                       
+
                     }
                 }
             )
-        }
-    );
+
+ } )};
