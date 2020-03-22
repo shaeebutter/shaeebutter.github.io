@@ -1,6 +1,127 @@
+div {
+    display: block;
+    border: 8px double  #96adc8;
+    max-width: 300px;
+    margin-left: 2em;
+    padding: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+footer {
+    background-color: #96adc8;
+    color: #f1f2ef;
+    text-align: center;
+    padding: 2em;
+    font-family: 'Abril Fatface', cursive;
+}
 h1 {
     font-family: 'Abril Fatface', cursive;
 }
+body {
+    color: #5f563c;
+    font-weight: 500;
+}
+li a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: #f1f2ef;
+
+  }
+nav {
+    background-color: #96adc8;
+
+  }
 p{
     font-family: 'Roboto', sans-serif;
 }
+
+section {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1em;
+    justify-content: center;
+}
+ul {
+    list-style-type: none;
+    padding: 2em;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    justify-content: space-evenly;
+}
+a:hover {
+    background-color: #5f563c;
+}
+.hidemenu {
+    display: none;
+}
+
+#current {
+    color: #5f563c;
+}
+#current:hover {
+    background-color: #f1f2ef;
+}
+#logo {
+    width: 125px;
+    height: 125px;
+    margin-left: 32%;
+}
+#templehomephoto{
+    max-width: 100px;
+    padding: 2em;
+}
+#templesummary {
+    padding-top: 2em;
+    padding-left: 2em;
+}
+/*sub navigation stuff
+/* The subnavigation menu */
+.subnav {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Subnav button */
+  .subnav .subnavbtn {
+    border: none;
+    outline: none;
+    color: #f1f2ef;
+    padding: 1em;
+    background-color: inherit;
+    font-family: inherit;
+  }
+  
+  /* Add a red background color to navigation links on hover */
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: #5f563c;
+  }
+  
+  /* Style the subnav content - positioned absolute */
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 10;
+    background-color: #5f563c;
+    z-index: 1;
+    font-size: 12px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+  }
+  
+  /* Style the subnav links */
+  .subnav-content a {
+    float: left;
+    color:#f1f2ef;
+    text-decoration: none;
+  }
+  
+  /* When you move the mouse over the subnav container, open the subnav content */
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+  
+
+  
+ 
