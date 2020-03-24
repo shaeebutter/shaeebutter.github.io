@@ -11,10 +11,15 @@ function hidemenu() {
 
 }
 
-function showmenu() {
-    document.querySelectorAll('.subnav')
-        .forEach(element => {
-            if (element.style.display === 'none')
-                element.style.display = 'inline-block';
+$(document).ready(function(){
 
-        })}
+// show/hide sub menu if it exists
+$('#nav > li > a').click(function () {
+    var $ul = $(this).siblings('ul');
+    if ($ul.length > 0) {
+        $ul.toggle();
+        return false;
+    }
+});
+}) (jQuery);
+

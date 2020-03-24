@@ -77,6 +77,10 @@ a:hover {
 }
 /*sub navigation stuff
 /* The subnavigation menu */
+#currentsub {
+    background-color: #f1f2ef;
+    color: #5f563c;
+}
 .subnav {
     float: left;
     overflow: hidden;
@@ -90,6 +94,7 @@ a:hover {
     padding: 1em;
     background-color: inherit;
     font-family: inherit;
+    margin-top: 0em;
   }
   
   /* Add a red background color to navigation links on hover */
@@ -106,9 +111,11 @@ a:hover {
     z-index: 1;
     font-size: 12px;
     text-align: center;
-    width: 100px;
-    height: 100px;
-  }
+    max-width: 93px;
+    max-height: 90px;
+    padding: 1em !important;
+    margin:0;
+  } 
   
   /* Style the subnav links */
   .subnav-content a {
@@ -118,10 +125,15 @@ a:hover {
   }
   
   /* When you move the mouse over the subnav container, open the subnav content */
-  .subnav:hover .subnav-content {
-    display: block;
+ .subnav:hover .subnav-content { 
+    display: block; 
   }
   
+  .subnav:hover .subnav-content {
+      display: block;
+  }
+
+
 
   
  

@@ -1,5 +1,8 @@
 @media only screen and (min-width: 32.5em) {
-nav {
+footer {
+    margin-top: 100%;
+}
+    nav {
     display: flex;
 }
 ul {
@@ -12,13 +15,9 @@ ul {
     max-width: 200px;
     justify-content: center;
 }
-li div .subnav .subnavbtn{
-}
 span .subnav-content{
     width: 150px;
     height: 150px;
-    margin-top: 1em;
-    border: 2px double #;
 }
 }
 @media only screen and (min-width: 62.5em) {

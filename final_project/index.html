@@ -7,20 +7,20 @@
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/small.css">
-    <title>Temples</title>
+    <title>Home</title>
 </head>
 
 <body>
-    <header></header>
+    <header>
     <nav>
 
         <img id="logo" src="images/final_logo.png">
-        <ul>
+        <ul id="nav">
             <li id = "hamburger">
                 <a onclick = "hidemenu()">&equiv; Menu</a onclick = "hidemenu()">
             </li>
             <li>
-                <a class = "hidemenu" id="current" href="index.html">Home</a>
+                <a class = "hidemenu"id="current" href="index.html">Home</a>
             </li>
             <li>
                 <a class = "hidemenu" href="temples.html">Temples</a>
@@ -28,12 +28,12 @@
             <li>
                 <a class = "hidemenu" href="reservations.html">Reservations</a>
             </li>
-            <li class="hidemenu" onclick="showmenu()">
+            <li class="hidemenu">
                 <span class="subnav">
-                    <a class="subnavbtn" href="#">Services</a>
+                        <a class="subnavbtn" href="#">Services</a>
                     <span class="subnav-content">
                       <a href="fulltime_missionaries.html">Full Time Missionaries</a>
-                      <a href="receptions.html">Receptions</a>
+                     <a href="receptions.html">Receptions</a>
                     </span>
                 </span>
             </li>
@@ -79,4 +79,5 @@
     </footer>
 </body>
 <script src="scripts/main.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 </html>
