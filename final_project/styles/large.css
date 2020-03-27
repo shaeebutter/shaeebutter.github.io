@@ -1,4 +1,7 @@
 @media only screen and (min-width: 62.5em) {
+body section picture span button {
+    left: 50px !important;
+}
 body section {
     margin-left: auto;
     margin-right: auto;
@@ -11,7 +14,6 @@ body div {
     text-align: center;
 }
 nav ul {
-    padding-left: 15%;
     font-size: 20px;
 }
 .hidemenu {
@@ -29,10 +31,9 @@ nav #logo {
     left: 25px;
     margin: 0;
 }
-main span #rexburg_home {
-    margin-left: 10%;
-    width: 1150px;
-    height: 630px;
+main section picture #rexburg_home {
+    width: 1250px;
+    height: 600px;
 }
 section #templehomephoto{
     max-width: 400px;

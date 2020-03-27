@@ -1,8 +1,7 @@
 @media only screen and (min-width: 32.5em) {
-button {
-    position: relative;
-    top: -500px;
-    left: 12%;
+
+body main div {
+margin-left: 30%;
 }
     nav {
     display: flex;
@@ -12,15 +11,22 @@ ul {
     flex-direction: row;
     font-size: 12px;
 }
-span #rexburg_home {
-    margin-left: 3em;
-    width: 650px;
-    height: 499px;
+picture span button {
+    position: relative;
+    float: left;
+    top: -400px;   
+    background-color: #a7bbd3af;
+}
+section picture #rexburg_home {
+    display: inline-block;
+    width: 700px;
+    height: unset;
 }
 
 #templehomephoto{
     max-width: 200px;
     justify-content: center;
+    margin-left: 25%;
 }
 span .subnav-content{
     width: 150px;
