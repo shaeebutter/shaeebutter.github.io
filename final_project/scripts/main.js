@@ -11,15 +11,31 @@ function hidemenu() {
 
 }
 
-$(document).ready(function(){
+//homepage button to reservations 
 
-// show/hide sub menu if it exists
-$('#nav > li > a').click(function () {
-    var $ul = $(this).siblings('ul');
-    if ($ul.length > 0) {
-        $ul.toggle();
-        return false;
+
+    document.getElementById('button').onclick = function () {
+        location = 'final_project/reservations.html';
+    };
+
+// json temples connection
+
+fetch (json/temples.json)
+    .then (response => response.json())
+    .then ( response => {
+        document.querySelector('#temple1-name').textContent = response[0].TempleName;
+
+        response[0].Services.forEach (
+            service => {
+                document.querySelector('#services1').innerHTML +=
+                `<li>${ service}</li>`;
+            }
+        )
+
+        document.querySelector('#image1').setAttribute('src', response[0].Image);
     }
-});
-}) (jQuery);
+
+    )
+
+
 

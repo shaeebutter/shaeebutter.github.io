@@ -1,6 +1,8 @@
 @media only screen and (min-width: 32.5em) {
-footer {
-    margin-top: 100%;
+button {
+    position: relative;
+    top: -500px;
+    left: 12%;
 }
     nav {
     display: flex;
@@ -9,6 +11,11 @@ ul {
     display: flex;
     flex-direction: row;
     font-size: 12px;
+}
+span #rexburg_home {
+    margin-left: 3em;
+    width: 650px;
+    height: 499px;
 }
 
 #templehomephoto{
@@ -19,40 +26,4 @@ span .subnav-content{
     width: 150px;
     height: 150px;
 }
-}
-@media only screen and (min-width: 62.5em) {
-body section {
-    margin-left: auto;
-    margin-right: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-body div {
-    margin-left: auto;
-    margin-right: auto;
-}
-nav ul {
-    padding-left: 15%;
-    font-size: 20px;
-}
-.hidemenu {
-    display: block !important;
-}
-nav ul li a #hidemenu {
-    display: none;
-}
-#hamburger {
-    display: none !important;
-}
-nav #logo {
-    position: relative;
-    top: 20px;
-    left: 25px;
-    margin: 0;
-}
-section #templehomephoto{
-    max-width: 400px;
-    padding: 2em;
-}
-
 }

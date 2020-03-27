@@ -1,11 +1,24 @@
+body {
+    color: #5f563c;
+}
+button {
+    font-size: 12px;
+    margin-top: 2em;
+    background-color: #96adc8;
+    color:#f1f2ef;
+    padding: 2em;
+    box-shadow: 5px 5px 10px black;
+    font-weight: 800;
+}
 div {
     display: block;
-    border: 8px double  #96adc8;
-    max-width: 300px;
+    border: 8px double #59696f;
+    max-width: 500px;
     margin-left: 2em;
-    padding: 1em;
+    padding: 5em;
     margin-top: 2em;
     margin-bottom: 2em;
+    background-color: #bdcad8;
 }
 footer {
     background-color: #96adc8;
@@ -14,13 +27,24 @@ footer {
     padding: 2em;
     font-family: 'Abril Fatface', cursive;
 }
+form {
+    margin-left: 32%;
+    line-height: 2em;
+    padding: 2em;
+    border: 2px solid #59696f;
+    max-width: 400px;
+    margin-bottom: 2em;
+    box-shadow: 5px 5px 10px #96adc8;
+}
 h1 {
     font-family: 'Abril Fatface', cursive;
 }
-body {
-    color: #5f563c;
-    font-weight: 500;
+#templeimages {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 li a {
     display: block;
     padding: 1em;
@@ -55,7 +79,6 @@ a:hover {
 .hidemenu {
     display: none;
 }
-
 #current {
     color: #5f563c;
 }
@@ -67,13 +90,36 @@ a:hover {
     height: 125px;
     margin-left: 32%;
 }
+#rexburg_home {
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px;
+    height: 200px;
+}
+#surveyheading {
+    text-align: center;
+}
 #templehomephoto{
-    max-width: 100px;
+    max-width: 300px;
     padding: 2em;
 }
 #templesummary {
     padding-top: 2em;
     padding-left: 2em;
+}
+#temples {
+    font-size: 10px;
+}
+#templeheading {
+    padding: 2em;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+#temples {
+    display: grid;
+    grid-template-columns: 1fr;
 }
 /*sub navigation stuff
 /* The subnavigation menu */
