@@ -20,7 +20,7 @@ function hidemenu() {
 
 // json temples connection
 
-fetch (json/temples.json)
+fetch ('json/temples.json')
     .then (response => response.json())
     .then ( response => {
         document.querySelector('#temple1-name').textContent = response[0].TempleName;
