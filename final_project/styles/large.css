@@ -1,0 +1,50 @@
+@media only screen and (min-width: 62.5em) {
+body section {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+body div {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+nav ul {
+    padding-left: 15%;
+    font-size: 20px;
+}
+.hidemenu {
+    display: block !important;
+}
+nav ul li a #hidemenu {
+    display: none;
+}
+#hamburger {
+    display: none !important;
+}
+nav #logo {
+    position: relative;
+    top: 20px;
+    left: 25px;
+    margin: 0;
+}
+main span #rexburg_home {
+    margin-left: 10%;
+    width: 1150px;
+    height: 630px;
+}
+section #templehomephoto{
+    max-width: 400px;
+    padding: 2em;
+}
+#temples { 
+ grid-template-columns: 1fr 1fr !important;
+ margin: auto;
+
+
+}
+#templephoto {
+    margin: auto;
+}
+}
