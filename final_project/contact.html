@@ -32,7 +32,7 @@
                 </li>
                 <li class="hidemenu">
                     <span class="subnav">
-                            <a class="subnavbtn" href="#">Services</a>
+                            <a class="subnavbtn" href="services.html">Services</a>
                         <span class="subnav-content">
                           <a href="fulltime_missionaries.html">Full Time Missionaries</a>
                          <a href="receptions.html">Receptions</a>
@@ -44,7 +44,54 @@
                 </li>
             </ul>
         </nav>
-        </header>       
+        </header> 
+        <main id="contactpage">
+            <section id="contactForm">
+            <form action="thanks.html" method="GET">
+                <h1>We Love To Hear From Our Guests!</h1>
+                <span>
+                    <label for="fullName">Full Name: </label>
+                    <input type="text" id="fullName" name="fullName" required placeholder="John Doe" pattern="[A-Za-z ]{5,32}">
+                </span> <br>
+                <span>
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" required placeholder="email@domain.com"> 
+                </span> <br>
+                <span>
+                    <label for="fullName">Home state (or country if not in U.S): </label>
+                    <input type="text" id="fullName" name="fullName" placeholder="John Doe" pattern="[A-Za-z ]{3,32}">
+                </span> <br>
+                <span>
+                    <label for="phoneNumber">Phone number: </label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" required placeholder="2085550125">
+                </span> <br>
+                <span>
+                    <label for="stayed">Have you stayed with us before?</label> <br>
+                    <label for="yes">
+                        <input type="radio" value="yes" name="stayed" id="yes">
+                        Yes!
+                    </label> <br>
+                    <label for="no">
+                        <input type="radio" value="no" name="stayed" id="no">
+                        No, I just have a question.
+                    </label>
+                </span> <br>
+                <span>
+                    <label for="additionalComments">Type your comments/questions here:</label> <br>
+                    <textarea name="additionalComments" id="additionalComments" cols="50" rows="6"></textarea>
+                </span><br>
+                <span>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Clear">
+                </span>
+            </section>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4050197013257!2d-77.09772048488374!3d38.98325177955748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1585366234068!5m2!1sen!2sus" 
+            width="200" height="150" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <address>
+                4800 Montgomery Ln #300 <br>
+                Bethesda, MD 20814
+            </address>
+        </main>
     <footer>
         The Temple Inn & Suites | 2020 | Shannen Bradley
     </footer>

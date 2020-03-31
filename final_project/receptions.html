@@ -32,7 +32,7 @@
                 </li>
                 <li class="hidemenu">
                     <span class="subnav">
-                            <a class="subnavbtn" href="#">Services</a>
+                            <a class="subnavbtn" href="services.html">Services</a>
                         <span class="subnav-content">
                           <a href="fulltime_missionaries.html">Full Time Missionaries</a>
                          <a href="receptions.html" id="currentsub">Receptions</a>
@@ -44,7 +44,82 @@
                 </li>
             </ul>
         </nav>
-        </header>                  
+        </header> 
+        <main>
+        <section id='contactForm'>
+            <form action="thanks.html" method="GET">
+                <h2>Wedding Accommodations
+                    <img id="wedding" src="images/hotel_wedding.jpg" alt="">
+                </h2>
+                <h4>Planning a wedding?  <br> Start here to book with us!</h4>
+                <span>
+                    <label for="fullName">Full Name: </label>
+                    <input type="text" id="fullName" name="fullName" required placeholder="John Doe" pattern="[A-Za-z ]{5,32}">
+                </span> <br>
+                <span>
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" required placeholder="email@domain.com"> 
+                </span> <br>
+                <span>
+                    <label for="fullName">Home state (or country if not in U.S): </label>
+                    <input type="text" id="fullName" name="fullName" placeholder="John Doe" pattern="[A-Za-z ]{3,32}">
+                </span> <br>
+                <span>
+                    <label for="phoneNumber">Phone number: </label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" required placeholder="2085550125">
+                </span> <br>
+                <span>
+                    <label for="numberGuests">About how many guests will be in attendance? </label>
+                    <input type="number" id="numberGuests" name="numberGuests">
+                </span> <br>
+                <span>
+                    <label for="checkIn">Date of Wedding: </label>
+                    <input type="date" id="checkIn" name="checkIn" placeholder="mm/dd/yyyy">
+                </span> <br>
+                <span>
+                    <label for="location">Location (which temple): </label>
+                    <select name="location" id="location">
+                        <option value="" selected disabled>Select Region...</option>
+                        <option value="Oakland">Oakland</option>
+                        <option value="Sacramento">Sacramento</option>
+                        <option value="Rexburg">Rexburg</option>
+                    </select>
+                </span> <br>
+                <span>
+                    <label for="setup">Are we catering?</label> <br>
+                    <label for="king">
+                        <input type="radio" value="yes" name="setup" id="yes">
+                        Yes, please!
+                    </label>
+                    <br>
+                    <label for="no">
+                        <input type="radio" value="no" name="setup" id="no">
+                        No, thank you.
+                    </label>
+                </span> <br>
+                    <span>
+                        <label for="setup">Would you like us to set up for you?</label> <br>
+                        <label for="king">
+                            <input type="radio" value="yes" name="setup" id="yes">
+                            Yes, please!
+                        </label>
+                        <br>
+                        <label for="no">
+                            <input type="radio" value="no" name="setup" id="no">
+                            No, thank you.
+                        </label>
+                </span> <br>
+                <span>
+                    <label for="additionalComments">Type any additional information here:</label> <br>
+                    <textarea name="additionalComments" id="additionalComments" cols="30" rows="3"></textarea>
+                </span><br>
+                <span>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Clear">
+                </span>
+            </form>
+        </section>
+    </main>                
     <footer>
         The Temple Inn & Suites | 2020 | Shannen Bradley
     </footer>

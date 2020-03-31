@@ -1,10 +1,32 @@
 @media only screen and (min-width: 32.5em) {
-
+main address {
+    margin-left: 45%;
+}
 body main div {
 margin-left: 30%;
 }
-    nav {
+form {
+    width: 500px;
+    justify-content: center;
+    text-align: center;
+}
+main section {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+nav {
     display: flex;
+    flex-direction: row;
+}
+
+#nav{
+    margin-top:-50px;
+    margin-left: 50px;
+}
+main iframe {
+    margin-left: 45%;
 }
 ul {
     display: flex;
@@ -17,12 +39,47 @@ picture span button {
     top: -400px;   
     background-color: #a7bbd3af;
 }
+#bookRoom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 section picture #rexburg_home {
     display: inline-block;
     width: 700px;
     height: unset;
 }
+body main #contactForm {
+    width: 500px !important;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
+}
+#hotelPic {
+    margin-left: 4em;
+    margin-top: 4em;
+}
+header #logo {
+    float: left;
+    margin: 0;
+}
+#questions {
+    margin-left: 30%;
+}
+section #queen {
+    width: 350px;
+}
+section #king {
+    width: 400px
+}
+#services {
+    margin-left: 2em;
+    margin-right: 2em;
+    max-width: 300px;
+    padding-bottom: 2em;
+}
+#servicePage {
+    margin-left: 20%;
+}
 #templehomephoto{
     max-width: 200px;
     justify-content: center;
@@ -31,5 +88,15 @@ section picture #rexburg_home {
 span .subnav-content{
     width: 150px;
     height: 150px;
+}
+li .hidemenu{
+    margin-top: -1em;
+}
+#weathersummary {
+    margin-left: 40%;
+}
+#wedding {
+    width: 400px;
+    margin-top: 1em;
 }
 }

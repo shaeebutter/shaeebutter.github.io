@@ -9,33 +9,47 @@ function hidemenu() {
                 (element.style.display = 'none');
         })
 
-}
+};
 
 //homepage button to reservations 
 
 
-    document.getElementById('button').onclick = function () {
-        location = 'final_project/reservations.html';
-    };
+// document.getElementById('button').onclick = function () {
+//     location = 'final_project/reservations.html';
+// };
 
 // json temples connection
 
-fetch ('json/temples.json')
-    .then (response => response.json())
-    .then ( response => {
-        document.querySelector('#temple1-name').textContent = response[0].TempleName;
+fetch('./json/temples.json')
+    .then(response => response.json())
+    .then(response => {
+            response.forEach((temple) => {
+                    document.querySelector(`#address-${temple.TempleName}`).innerHTML =
+                        `${temple.StreetAddress}<br/>${temple.City}, ${temple.State}`;
+                    document.querySelector(`#phone-${temple.TempleName}`).textContent = temple.PhoneNumber;
 
-        response[0].Services.forEach (
-            service => {
-                document.querySelector('#services1').innerHTML +=
-                `<li>${ service}</li>`;
-            }
-        )
-
-        document.querySelector('#image1').setAttribute('src', response[0].Image);
+                    temple.History.forEach(
+                        history => {
+                            document.querySelector(`#history-${temple.TempleName}`).innerHTML += `<li>${history.Milestone} - ${history.Date}</li>`
+                        }
+                    )
+                    temple.TempleClosures.forEach(
+                        closures => {
+                            document.querySelector(`#closures-${temple.TempleName}`).innerHTML += `<li>${closures}</li>`
+                        }
+                    )
+                    // temple.OrdinanceSchedule.forEach(
+                    //     OrdinanceSchedule => {
+                    document.querySelector(`#ordinances-${temple.TempleName}`).innerHTML += `<li>Endowment: ${temple.OrdinanceSchedule.Endowment}</li>
+                    <br/> <li>Initiatory: ${temple.OrdinanceSchedule.Initiatory}</li> <br/> <li>Baptims: ${temple.OrdinanceSchedule.Baptisms}</li> <br/> <li>Sealings: ${temple.OrdinanceSchedule.Sealings}</li>`
+                    // }) 
+                temple.Services.forEach(
+                    service => {
+                        document.querySelector(`#services-${temple.TempleName}`).innerHTML +=
+                            `<li>${service}</li>`;
+                    })
+            })
     }
 
-    )
-
-
-
+)
+//current weather on temples

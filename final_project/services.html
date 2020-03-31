@@ -9,45 +9,85 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
-    <title>Temples</title>
+    <title>Services</title>
 </head>
 
 <body>
     <header>
         <nav>
-    
+
             <img id="logo" src="images/final_logo.png">
             <ul id="nav">
-                <li id = "hamburger">
-                    <a onclick = "hidemenu()">&equiv; Menu</a onclick = "hidemenu()">
+                <li id="hamburger">
+                    <a onclick="hidemenu()">&equiv; Menu</a onclick="hidemenu()">
                 </li>
                 <li>
-                    <a class = "hidemenu" href="index.html">Home</a>
+                    <a class="hidemenu" href="index.html">Home</a>
                 </li>
                 <li>
-                    <a class = "hidemenu" href="temples.html">Temples</a>
+                    <a class="hidemenu" href="temples.html">Temples</a>
                 </li>
                 <li>
-                    <a class = "hidemenu" href="reservations.html">Reservations</a>
+                    <a class="hidemenu" href="reservations.html">Reservations</a>
                 </li>
                 <li class="hidemenu">
                     <span class="subnav">
-                            <a class="subnavbtn" href="#">Services</a>
+                        <a class="subnavbtn" id="current" href="services.html">Services</a>
                         <span class="subnav-content">
-                          <a href="fulltime_missionaries.html">Full Time Missionaries</a> </li>
-                         <a href="receptions.html">Receptions</a> </li>
+                            <a href="fulltime_missionaries.html">Full Time Missionaries</a>
+                            <a href="receptions.html">Receptions</a>
                         </span>
                     </span>
                 </li>
                 <li>
-                    <a class = "hidemenu" href="contact.html">Contact</a>
+                    <a class="hidemenu" href="contact.html">Contact</a>
                 </li>
             </ul>
         </nav>
-        </header>                         
+    </header>
+    <main>
+        <section id="servicePage">
+            <table id="services">
+                <tr>
+                    <th>Specialized Services</th>
+                </tr>
+                <tr>
+                    <td>
+                        &middot; Free access to changing rooms and bathroom facilities for temple patrons who have traveled far
+                        and need to change to and from church clothes <br><br>
+                        &middot; A playroom and low-cost, short-term babysitting services for the children of patrons <br><br>
+                        &middot; Long-term stay accommodations in kitchenette suites for full-time temple missionaries <br><br>
+                        &middot; Temple history themed reception and sitting area <br><br>
+                        &middot; A wedding reception hall that can be easily customized with a simple catering menu and kitchen
+                        access for food preparation and serving <br><br>
+                        &middot; A family search center that supports family search and ordinance work <br><br>
+                        [Other ideas are welcome]
+                    </td>
+                </tr>
+            </table>
+        
+            <table id="services">
+                <tr>
+                    <th>Amenities</th>
+                </tr>
+                <tr>
+                    <td>
+                        Breakfast
+                        &middot;Exercise/workout room <br><br>
+                        &middot;Indoor pool <br><br>
+                        &middot;WiFi high-speed internet access and smart TVs <br><br>
+                        &middot;Free parking <br><br>
+                        &middot;Temple shuttle <br><br>
+                        &middot;Family history consultation and family ordinance card service
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </main>
     <footer>
         The Temple Inn & Suites | 2020 | Shannen Bradley
     </footer>
 </body>
 <script src="scripts/main.js"></script>
+
 </html>

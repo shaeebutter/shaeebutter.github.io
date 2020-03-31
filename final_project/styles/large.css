@@ -2,11 +2,11 @@
 body section picture span button {
     left: 50px !important;
 }
-body section {
+body main section {
     margin-left: auto;
     margin-right: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 body div {
     margin-left: auto;

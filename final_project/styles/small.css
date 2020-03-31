@@ -1,3 +1,7 @@
+address {
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
 body {
     color: #5f563c;
 }
@@ -28,32 +32,47 @@ footer {
     font-family: 'Abril Fatface', cursive;
 }
 form {
-    margin-left: 32%;
+    margin-left: 5em;
     line-height: 2em;
     padding: 2em;
     border: 2px solid #59696f;
-    max-width: 400px;
     margin-bottom: 2em;
     box-shadow: 5px 5px 10px #96adc8;
 }
 h1 {
     font-family: 'Abril Fatface', cursive;
 }
+iframe {
+    margin-left: 2em;
+    margin-bottom: 0.5em;
+}
+table,
+tr,
+th,
+td {
+    border: 1px solid #3F3F3B;
+    border-collapse: collapse;
+    padding: 0.5em;
+}
 #templeimages {
     max-width: 300px;
     margin-left: auto;
     margin-right: auto;
 }
-
+#templesbreak {
+    background-color: pink;
+}
 li a {
-    display: block;
     padding: 1em;
     text-decoration: none;
     color: #f1f2ef;
 
   }
+  
 nav {
     background-color: #96adc8;
+    display: flex;
+    flex-direction: column;
 
   }
 p{
@@ -68,7 +87,7 @@ section {
 }
 ul {
     list-style-type: none;
-    padding-left: 25%;
+    /* padding-left: 25%; */
     font-family: 'Abril Fatface', cursive;
     text-align: center;
     justify-content: space-evenly;
@@ -82,6 +101,12 @@ a:hover {
 #button {
     display: block;
 }
+#additionalComments {
+    max-width: 200px;
+}
+#contactForm {
+    width: 200px;
+}
 #current {
     color: #5f563c;
 }
@@ -91,7 +116,16 @@ a:hover {
 #logo {
     width: 125px;
     height: 125px;
-    margin-left: 32%;
+    margin-left: 40%;
+}
+#missionaryheading {
+    text-align: center;
+}
+#queen {
+    width: 250px;
+}
+#king {
+    width: 300px;
 }
 #rexburg_home {
     margin-top: 2em;
@@ -100,6 +134,7 @@ a:hover {
     margin-bottom: 0.5em;
 }
 #surveyheading {
+    margin-left: 3em;
     text-align: center;
 }
 #templehomephoto{
@@ -143,6 +178,7 @@ a:hover {
     background-color: inherit;
     font-family: inherit;
     margin-top: 0em;
+    justify-content: center;
   }
   
   /* Add a red background color to navigation links on hover */

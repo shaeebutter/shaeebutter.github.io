@@ -9,74 +9,95 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
-    
+
     <title>Home</title>
 </head>
 
-<body>
+<body onload= "loadWeatherData()">
     <header>
-    <nav>
+        <nav>
 
-        <img id="logo" src="images/final_logo.png">
-        <ul id="nav">
-            <li id = "hamburger">
-                <a onclick = "hidemenu()">&equiv; Menu</a onclick = "hidemenu()">
-            </li>
-            <li>
-                <a class = "hidemenu"id="current" href="index.html">Home</a>
-            </li>
-            <li>
-                <a class = "hidemenu" href="temples.html">Temples</a>
-            </li>
-            <li>
-                <a class = "hidemenu" href="reservations.html">Reservations</a>
-            </li>
-            <li class="hidemenu">
-                <span class="subnav">
-                        <a class="subnavbtn" href="#">Services</a>
-                    <span class="subnav-content">
-                      <a href="fulltime_missionaries.html">Full Time Missionaries</a>
-                     <a href="receptions.html">Receptions</a>
+            <img id="logo" src="images/final_logo.png">
+            <ul id="nav">
+                <li id="hamburger">
+                    <a onclick="hidemenu()">&equiv; Menu</a onclick="hidemenu()">
+                </li>
+                <li>
+                    <a class="hidemenu" id="current" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="hidemenu" href="temples.html">Temples</a>
+                </li>
+                <li>
+                    <a class="hidemenu" href="reservations.html">Reservations</a>
+                </li>
+                <li class="hidemenu">
+                    <span class="subnav">
+                        <a class="subnavbtn" href="services.html">Services</a>
+                        <span class="subnav-content">
+                            <a href="fulltime_missionaries.html">Full Time Missionaries</a>
+                            <a href="receptions.html">Receptions</a>
+                        </span>
                     </span>
-                </span>
-            </li>
-            <li>
-                <a class = "hidemenu" href="contact.html">Contact</a>
-            </li>
-        </ul>
-    </nav>
-    </header>        
+                </li>
+                <li>
+                    <a class="hidemenu" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <section id=button>
             <picture>
-            <img id="rexburg_home" src="images/rexburg_home.jpg" alt="Rexburg, ID temple">
-            <span><button type=button id="toReservations">Click here to make your hotel reservation now! <br> (takes no time at all)</button></span>
-        </picture>
-        </section>   
+                <img id="rexburg_home" src="images/rexburg_home.jpg" alt="Rexburg, ID temple">
+                <span><button type=button id="toReservations">Click here to make your hotel reservation now! <br> (takes
+                        no time at all)</button></span>
+            </picture>
+        </section>
         <div>
-        Contact us @ <br><br>
-        phone: 5305550125<br>
-        fax: 5305550126<br>
-        email: templeinnsuites@church.org
-    </div>
-    <section>
-        <article>
-            <img id="templehomephoto" src="images/oakland_temple.jpg" alt="Oakland, CA Temple wedding day">
-        </article>
-        <article id="templesummary">
-            <div>
-            Temple Summary: <br><br>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, laboriosam inventore. 
-            Non doloribus enim saepe, illum doloremque inventore eaque recusandae officiis cupiditate ad, 
-            fugiat harum numquam unde beatae sapiente quae.
-            </div>
-        </article>
-    </section>
-</main>
+            Contact us @ <br><br>
+            phone: 5305550125<br>
+            fax: 5305550126<br>
+            email: templeinnsuites@church.org
+        </div>
+        <section>
+            <article>
+                <img id="templehomephoto" src="images/oakland_temple.jpg" alt="Oakland, CA Temple wedding day">
+            </article>
+            <article id="templesummary">
+                <div>
+                    <h2>Oakland Temple Current Weather </h2><br><br>
+                    <span id="weather-info">
+                        <span id="weatherDescription-5378538"></span>
+                        <img id="weather-icon-5378538"></img>
+                    </span>
+                    <br> <br>
+                    <span> <span>Current Temperature:</span>
+                        <span id="current-temp-5378538"></span>
+
+                    </span>
+                    <br><br>
+                    <span> <span>Wind Speed:</span>
+                        <span id="speed-5378538"></span>
+                    </span>
+                    <br><br>
+                    <span>
+                        <span>Feels Like:</span>
+                        <span id="windchill-5378538"></span>
+                    </span>
+                    <br><br>
+                    <span>
+                        Humidity: <span id="humidity-5378538"></span>
+                    </span>
+                </div>
+            </article>
+        </section>
+    </main>
     <footer>
         The Temple Inn & Suites | 2020 | Shannen Bradley
     </footer>
 </body>
-<script src="./scripts/main.js"></script>
-<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+<script src="scripts/main.js"></script>
+<script src="scripts/weather.js"></script>
+
 </html>

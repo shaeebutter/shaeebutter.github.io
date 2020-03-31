@@ -1,0 +1,151 @@
+[
+    {
+        "TempleName": "Oakland",
+        "StreetAddress": "4770 Lincoln Ave",
+        "City": "Oakland",
+        "State": "California",
+        "Country": "US",
+        "PhoneNumber": "510-531-3200",
+        "Email": "oaklandtemple@churchofjesuschrist.org",
+        "Services": ["Clothing rental available", "Cafeteria available", 
+            "Patron housing available", "Distribution center nearby"], 
+        "History": [
+            {
+                "Date": "23 January 1961", 
+                "Milestone": "Announced"
+            },
+            {
+                "Date": "26 May 1962",
+                "Milestone": "Groundbreaking"
+            },
+            {
+                "Date": "17 November 1964", 
+                "Milestone": "Dedicated"
+            },
+            {
+                "Date": "16 June 2019", 
+                "Milestone": "Rededicated"
+            }
+        ],
+        "OrdinanceSchedule":
+        {
+                "Endowment": "On the hour 7a.m-8:00p.m", 
+                "Initiatory": "7a.m-9p.m",
+                "Baptisms": "7a.m-9p.m", 
+                "Sealings": "7a.m-9p.m" 
+            },
+    "TempleClosures": [
+            "July 4", "Sept 14-26"
+        ]
+
+    },
+    {
+        "TempleName": "Sacramento",
+        "StreetAddress": "2110 California Cir",
+        "City": "Rancho Cordova",
+        "State": "California",
+        "Country": "US",
+        "PhoneNumber": "916-357-5870",
+        "Email": "sacramentotemple@churchofjesuschrist.org",
+        "Services": ["Distribution center nearby"], 
+        "History": [
+            {
+                "Date": "21 April 2001", 
+                "Milestone": "Announced"
+            },
+            {
+                "Date": "22 August 2004",
+                "Milestone": "Groundbreaking"
+            },
+            {
+                "Date": "3 September 2006",
+                "Milestone": "Dedicated"
+            }
+        ],
+        "OrdinanceSchedule":
+         {      "Initiatory": "7am-9pm",
+                "Endowment": ["7am" , "8:30am", "10am", "12pm", "1:30pm", "3pm","5pm", "6:30pm", "8pm"], 
+                "Baptisms": ["Walk-ins 8am-6pm", "Church groups (by appointment) 6pm-9pm"],  
+                "Sealings": "7am-9pm"
+               
+        },
+        "TempleClosures": [
+            "July 4", "August 4-15"
+        ]
+
+    }, 
+    {
+        "TempleName": "Rexburg",
+        "StreetAddress": "750 S 2nd E",
+        "City": "Rexburg",
+        "State": "Idaho",
+        "Country": "US",
+        "PhoneNumber": "208-656-0880",
+        "Email": "rexburgtemple@churchofjesuschrist.org",
+        "Services": ["Clothing rental available", "Distribution center nearby"], 
+        "History": [
+            {
+                "Date": "12 December 2003", 
+                "Milestone": "Announced"
+            },
+            {
+                "Date": "30 July 2005",
+                "Milestone": "Groundbreaking"
+            },
+            {
+                "Date": "10 February 2008", 
+                "Milestone": "Dedicated"
+            }
+        ],
+        "OrdinanceSchedule":
+        {
+                "Initiatory": "6am-8pm",
+                "Endowment": "6am-7:30pm every 45 minutes", 
+                "Baptisms": ["Church Groups (by appointment) 6am-9am & 4pm-8pm", "9am-4pm"],  
+                "Sealings": "6am-8pm" 
+            },
+        "TempleClosures": [
+            "July 4", "July 25", "August 24-September 12"
+        ]
+
+    },
+    {
+        "TempleName": "Jordan-River",
+        "StreetAddress": "10200 S Temple Drive",
+        "City": "South Jordan",
+        "State": "Utah",
+        "Country": "US",
+        "PhoneNumber": "801-254-3003",
+        "Email": "temple@churchofjesuschrist.org",
+        "Services": ["Clothing rental available", "Cafeteria available", "Distribution center nearby"], 
+        "History": [
+            {
+                "Date": "3 February 1978", 
+                "Milestone": "Announced"
+            },
+            {
+                "Date": "9 June 1979",
+                "Milestone": "Groundbreaking"
+            },
+            {
+                "Date": "16 November 1981",
+                "Milestone": "Dedicated"
+            },
+            {
+                "Date": "20 May 2018",
+                "Milestone": "Rededicated"
+            }
+        ],
+        "OrdinanceSchedule":
+          {
+                "Initiatory": "Call the temple for information",
+                "Endowment": "6am-8pm every 20 minutes",
+                "Baptisms": "5am-10pm", 
+                "Sealings": "6am-9pm" 
+            },
+        "TempleClosures": [
+            "June 8-June 20", "July 4", "July 24"
+        ]
+
+    }
+]
