@@ -65,10 +65,11 @@ header #logo {
 #questions {
     margin-left: 30%;
 }
-section #queen {
+section #queenpic {
     width: 350px;
 }
-section #king {
+section #kingpic {
+    margin-top: 2em;
     width: 400px
 }
 #services {
