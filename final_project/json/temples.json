@@ -64,7 +64,7 @@
         ],
         "OrdinanceSchedule":
          {      "Initiatory": "7am-9pm",
-                "Endowment": ["7am" , "8:30am", "10am", "12pm", "1:30pm", "3pm","5pm", "6:30pm", "8pm"], 
+                "Endowment": "7am-8pm Every 90 minutes", 
                 "Baptisms": ["Walk-ins 8am-6pm", "Church groups (by appointment) 6pm-9pm"],  
                 "Sealings": "7am-9pm"
                

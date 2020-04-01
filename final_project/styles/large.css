@@ -39,10 +39,8 @@ section #templehomephoto{
     max-width: 400px;
     padding: 2em;
 }
-#temples { 
- grid-template-columns: 1fr 1fr !important;
- margin: auto;
-
+body main #templesbreak{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 
 }
 #templephoto {

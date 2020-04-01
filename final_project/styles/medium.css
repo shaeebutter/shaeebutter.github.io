@@ -92,8 +92,19 @@ span .subnav-content{
 li .hidemenu{
     margin-top: -1em;
 }
+main #templesbreak {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+main #temples {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1em;
+    max-width: 400px;
+    text-align: center;
+}
 #weathersummary {
-    margin-left: 40%;
+    height: 300px;
+    width: 300px;
+    padding: 1em;
 }
 #wedding {
     width: 400px;
