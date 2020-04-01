@@ -5,8 +5,9 @@ main address {
 body main div {
 margin-left: 30%;
 }
-form {
-    width: 500px;
+section form {
+    margin-left: 5em;
+    width: 500px !important;
     justify-content: center;
     text-align: center;
 }
@@ -32,6 +33,7 @@ ul {
     display: flex;
     flex-direction: row;
     font-size: 12px;
+    padding: 0;
 }
 picture span button {
     position: relative;
@@ -54,7 +56,8 @@ body main #contactForm {
     grid-template-columns: 1fr 1fr;
 
 }
-#hotelPic {
+body section #hotelPic {
+    width: 500px !important;
     margin-left: 4em;
     margin-top: 4em;
 }
@@ -101,6 +104,12 @@ main #temples {
     padding: 1em;
     max-width: 400px;
     text-align: center;
+}
+main #templeimages {
+    max-width: 300px;
+    margin-right: 100px;
+    margin-left: 250px;
+    margin-top: 2em;
 }
 #weathersummary {
     height: 300px;

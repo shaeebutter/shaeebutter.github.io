@@ -11,7 +11,6 @@ function hidemenu() {
 
 };
 
-//homepage button to reservations 
 
 
 // document.getElementById('button').onclick = function () {
