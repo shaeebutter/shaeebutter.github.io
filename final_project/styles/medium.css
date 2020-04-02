@@ -56,6 +56,9 @@ body main #contactForm {
     grid-template-columns: 1fr 1fr;
 
 }
+#hamburger {
+    display: none;
+}
 body section #hotelPic {
     width: 500px !important;
     margin-left: 4em;
@@ -95,6 +98,7 @@ span .subnav-content{
 }
 li .hidemenu{
     margin-top: -1em;
+    display: inline-block;
 }
 main #templesbreak {
     grid-template-columns: 1fr 1fr 1fr;
